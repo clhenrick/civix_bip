@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<extension key="unhp.bipentityextension" type="module">
+  <file>bipdata</file>
+  <name>Bip Data</name>
+  <description>Entity and Mapping</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Sophia Russell</author>
+    <email>sophia.elizabeth.russell@gmail.com</email>
+  </maintainer>
+  <releaseDate>2016-04-29</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>4.2</ver>
+  </compatibility>
+  <comments>BIP Data</comments>
+  <civix>
+    <namespace>CRM/BipData</namespace>
+  </civix>
+</extension>
