@@ -40,8 +40,6 @@ function bipdata_civicrm_pre($op, $objectName, $id, &$params) {
     }
 
     if ($bbl !== null) {
-      // Write some code to get the BIP values from someplace else.  Could be an API call or a SQL call or whatever.
-      // Example using API (assumes BIP data is its own object)
       $response = civicrm_api3('BipData', 'get', array(
         'sequential' => 1,
         'bip_bbl' => $bbl,
