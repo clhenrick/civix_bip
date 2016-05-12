@@ -59,7 +59,7 @@
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>6</weight>
     <is_active>1</is_active>
@@ -75,7 +75,7 @@
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>11</weight>
     <is_active>1</is_active>
@@ -91,7 +91,7 @@
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>16</weight>
     <is_active>1</is_active>
@@ -107,7 +107,7 @@
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>21</weight>
     <is_active>1</is_active>
@@ -118,8 +118,8 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>BOROCODE</name>
-    <title>BOROCODE</title>
+    <name>borocode</name>
+    <title>borocode</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -134,8 +134,8 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>BLOCK</name>
-    <title>BLOCK</title>
+    <name>block</name>
+    <title>block</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -150,8 +150,8 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>LOT</name>
-    <title>LOT</title>
+    <name>lot</name>
+    <title>lot</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -166,12 +166,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>COMMDIST</name>
-    <title>COMMDIST</title>
+    <name>commdist</name>
+    <title>commdist</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>41</weight>
     <is_active>1</is_active>
@@ -182,8 +182,8 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>LUCATEGORY</name>
-    <title>LUCATEGORY</title>
+    <name>lucategory</name>
+    <title>lucategory</title>
     <data_type>String</data_type>
     <html_type>Multi-Select</html_type>
     <is_required>0</is_required>
@@ -200,7 +200,7 @@
   </field>
   <field>
     <name>year_built</name>
-    <title>Year Built</title>
+    <title>year_built</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -216,7 +216,7 @@
   </field>
   <field>
     <name>yr_1st_alt</name>
-    <title>Yr 1st Alt</title>
+    <title>yr_1st_alt</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -232,7 +232,7 @@
   </field>
   <field>
     <name>yr_2nd_alt</name>
-    <title>Yr 2nd alt</title>
+    <title>yr_2nd_alt</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -248,7 +248,7 @@
   </field>
   <field>
     <name>bldg_class</name>
-    <title>Building Class</title>
+    <title>bldg_class</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -264,11 +264,11 @@
   </field>
   <field>
     <name>zoning_gen</name>
-    <title>Zoning Gen</title>
+    <title>zoning_gen</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>70</weight>
     <is_active>1</is_active>
@@ -284,7 +284,7 @@
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>74</weight>
     <is_active>1</is_active>
@@ -295,12 +295,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Open_Violations</name>
-    <title>Open Violations</title>
+    <name>open_violations</name>
+    <title>open_violations</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>79</weight>
     <is_active>1</is_active>
@@ -311,12 +311,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Open_A_Violations</name>
-    <title>Open A Violations</title>
+    <name>open_a_violations</name>
+    <title>open_a_violations</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>84</weight>
     <is_active>1</is_active>
@@ -327,12 +327,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Open_B_Violations</name>
-    <title>Open_B_Violations</title>
+    <name>open_b_violations</name>
+    <title>open_b_violations</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>88</weight>
     <is_active>1</is_active>
@@ -343,12 +343,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Open_C_Violations</name>
-    <title>Open_C_Violations</title>
+    <name>open_c_violations</name>
+    <title>open_c_violations</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>92</weight>
     <is_active>1</is_active>
@@ -359,12 +359,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>PriorYear_Violations</name>
-    <title>PriorYear_Violations</title>
+    <name>prior_year_violations</name>
+    <title>prior_year_violations</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>96</weight>
     <is_active>1</is_active>
@@ -375,12 +375,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>PriorYear_A_Violations</name>
-    <title>PriorYear_A_Violations</title>
+    <name>prior_year_a_violations</name>
+    <title>prior_year_a_violations</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>100</weight>
     <is_active>1</is_active>
@@ -391,12 +391,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>PriorYear_B_Violations</name>
-    <title>PriorYear_B_Violations</title>
+    <name>prior_year_b_violations</name>
+    <title>prior_year_b_violations</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>104</weight>
     <is_active>1</is_active>
@@ -407,12 +407,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>PriorYear_C_Violations</name>
-    <title>PriorYear_C_Violations</title>
+    <name>prior_year_c_violations</name>
+    <title>prior_year_c_violations</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>108</weight>
     <is_active>1</is_active>
@@ -423,12 +423,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Seven_A</name>
-    <title>Seven_A</title>
+    <name>seven_a</name>
+    <title>seven_a</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>112</weight>
     <is_active>1</is_active>
@@ -439,12 +439,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>AEP</name>
-    <title>AEP</title>
+    <name>aep</name>
+    <title>aep</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>116</weight>
     <is_active>1</is_active>
@@ -455,12 +455,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>PPI</name>
-    <title>PPI</title>
+    <name>ppi</name>
+    <title>ppi</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>120</weight>
     <is_active>1</is_active>
@@ -471,12 +471,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Underlying_Conditions</name>
-    <title>Underlying_Conditions</title>
+    <name>underlying_conditions</name>
+    <title>underlying_conditions</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>124</weight>
     <is_active>1</is_active>
@@ -487,12 +487,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>NYC_421A_Exempt_Properties</name>
-    <title>NYC 421A Exempt Properties</title>
+    <name>nyc_421a_exempt_properties</name>
+    <title>nyc_421a_exempt_properties</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>128</weight>
     <is_active>1</is_active>
@@ -503,12 +503,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>PriorYear_311_Comps</name>
-    <title>PriorYear_311 Comps</title>
+    <name>prior_year_311_comps</name>
+    <title>prior_year_311_comps</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>132</weight>
     <is_active>1</is_active>
@@ -524,7 +524,7 @@
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>139</weight>
     <is_active>1</is_active>
@@ -540,7 +540,7 @@
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>144</weight>
     <is_active>1</is_active>
@@ -556,7 +556,7 @@
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>146</weight>
     <is_active>1</is_active>
@@ -567,14 +567,14 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Water</name>
-    <title>Water</title>
+    <name>water</name>
+    <title>water</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
-    <weight>151</weight>
+    <weight>146</weight>
     <is_active>1</is_active>
     <is_view>1</is_view>
     <text_length>255</text_length>
@@ -583,7 +583,7 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Umbrella</name>
+    <name>umbrella</name>
     <title>Umbrella</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
@@ -604,7 +604,7 @@
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>168</weight>
     <is_active>1</is_active>
@@ -620,7 +620,7 @@
     <data_type>String</data_type>
     <html_type>Multi-Select</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>175</weight>
     <is_active>1</is_active>
@@ -655,12 +655,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>Absolute</name>
-    <title>Absolute</title>
+    <name>absolute</name>
+    <title>absolute</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>196</weight>
     <is_active>1</is_active>
@@ -671,12 +671,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Per_Unit</name>
-    <title>Per Unit</title>
+    <name>per_unit</name>
+    <title>per_unit</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>204</weight>
     <is_active>1</is_active>
@@ -687,8 +687,8 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Current_BIP_Score</name>
-    <title>Current BIP_Score</title>
+    <name>current_bip_score</name>
+    <title>current_bip_score</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -703,12 +703,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2015April</name>
-    <title>Score_2015April</title>
+    <name>score_2015_april</name>
+    <title>score_2015_april</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>220</weight>
     <is_active>1</is_active>
@@ -719,12 +719,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2015Jan</name>
-    <title>Score_2015Jan</title>
+    <name>score_2015_jan</name>
+    <title>score_2015_jan</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>228</weight>
     <is_active>1</is_active>
@@ -736,12 +736,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2014Oct</name>
-    <title>Score_2014Oct</title>
+    <name>score_2014_oct</name>
+    <title>score_2014_oct</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>236</weight>
     <is_active>1</is_active>
@@ -752,12 +752,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2014Jun</name>
-    <title>Score_2014Jun</title>
+    <name>score_2014_jun</name>
+    <title>score_2014_jun</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>244</weight>
     <is_active>1</is_active>
@@ -768,12 +768,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2014Feb</name>
-    <title>Score_2014Feb</title>
+    <name>score_2014_feb</name>
+    <title>score_2014_feb</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>252</weight>
     <is_active>1</is_active>
@@ -784,12 +784,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2013Nov</name>
-    <title>Score_2013Nov</title>
+    <name>score_2013_nov</name>
+    <title>score_2013_nov</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>254</weight>
     <is_active>1</is_active>
@@ -800,12 +800,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2013Aug</name>
-    <title>Score_2013Aug</title>
+    <name>score_2013_aug</name>
+    <title>score_2013_aug</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>255</weight>
     <is_active>1</is_active>
@@ -816,12 +816,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2013April</name>
-    <title>Score_2013April</title>
+    <name>score_2013_april</name>
+    <title>score_2013_april</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>262</weight>
     <is_active>1</is_active>
@@ -832,12 +832,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2012Nov</name>
-    <title>Score_2012Nov</title>
+    <name>score_2012_nov</name>
+    <title>score_2012_nov</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>270</weight>
     <is_active>1</is_active>
@@ -848,12 +848,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2012June</name>
-    <title>Score_2012June</title>
+    <name>score_2012_june</name>
+    <title>score_2012_june</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>278</weight>
     <is_active>1</is_active>
@@ -864,12 +864,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2012Jan</name>
-    <title>Score_2012Jan</title>
+    <name>score_2012_jan</name>
+    <title>score_2012_jan</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>280</weight>
     <is_active>1</is_active>
@@ -880,12 +880,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2010_2</name>
-    <title>Score_2010-2</title>
+    <name>score_2010_2</name>
+    <title>score_2010_2</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>287</weight>
     <is_active>1</is_active>
@@ -896,12 +896,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2010_1</name>
-    <title>Score_2010-1</title>
+    <name>score_2010_1</name>
+    <title>score_2010_1</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>295</weight>
     <is_active>1</is_active>
@@ -912,12 +912,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2009_2</name>
-    <title>Score_2009-2</title>
+    <name>score_2009_2</name>
+    <title>score_2009_2</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>296</weight>
     <is_active>1</is_active>
@@ -928,12 +928,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2009_1</name>
-    <title>Score_2009-1</title>
+    <name>score_2009_1</name>
+    <title>score_2009_1</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>304</weight>
     <is_active>1</is_active>
@@ -944,12 +944,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Score_2008_2</name>
-    <title>Score_2008-2</title>
+    <name>score_2008_2</name>
+    <title>score_2008_2</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>306</weight>
     <is_active>1</is_active>
@@ -960,12 +960,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Occurance</name>
-    <title>Occurance</title>
+    <name>occurance</name>
+    <title>occurance</title>
     <data_type>Int</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>313</weight>
     <is_active>1</is_active>
@@ -976,12 +976,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Average</name>
-    <title>Average</title>
+    <name>average</name>
+    <title>average</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>320</weight>
     <is_active>1</is_active>
@@ -992,12 +992,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>CDFAvg</name>
-    <title>CDFAvg</title>
+    <name>cdf_avg</name>
+    <title>cdf_avg</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>327</weight>
     <is_active>1</is_active>
@@ -1008,12 +1008,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>CorpName</name>
-    <title>CorpName</title>
+    <name>corp_name</name>
+    <title>corp_name</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>334</weight>
     <is_active>1</is_active>
@@ -1024,12 +1024,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>CorpStreet</name>
-    <title>CorpStreet</title>
+    <name>corp_street</name>
+    <title>corp_street</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>342</weight>
     <is_active>1</is_active>
@@ -1040,12 +1040,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>CorpApt</name>
-    <title>CorpApt</title>
+    <name>corp_apt</name>
+    <title>corp_apt</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>350</weight>
     <is_active>1</is_active>
@@ -1056,8 +1056,8 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>CorpCity</name>
-    <title>CorpCity</title>
+    <name>corp_city</name>
+    <title>corp_city</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -1072,8 +1072,8 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>CorpState</name>
-    <title>CorpState</title>
+    <name>corp_state</name>
+    <title>corp_state</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
@@ -1088,12 +1088,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>IndivFirstName</name>
-    <title>IndivFirstName</title>
+    <name>indiv_first_name</name>
+    <title>indiv_first_name</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>386</weight>
     <is_active>1</is_active>
@@ -1104,12 +1104,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>IndivLastName</name>
-    <title>IndivLastName</title>
+    <name>indiv_last_name</name>
+    <title>indiv_last_name</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>396</weight>
     <is_active>1</is_active>
@@ -1120,12 +1120,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>IndivStreet</name>
-    <title>IndivStreet</title>
+    <name>indiv_street</name>
+    <title>indiv_street</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>413</weight>
     <is_active>1</is_active>
@@ -1136,12 +1136,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>IndivApt</name>
-    <title>IndivApt</title>
+    <name>indiv_apt</name>
+    <title>indiv_apt</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>424</weight>
     <is_active>1</is_active>
@@ -1152,12 +1152,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>IndivCity</name>
-    <title>IndivCity</title>
+    <name>indiv_city</name>
+    <title>indiv_city</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>435</weight>
     <is_active>1</is_active>
@@ -1168,12 +1168,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>IndivSt</name>
-    <title>IndivSt</title>
+    <name>indiv_st</name>
+    <title>indiv_st</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>446</weight>
     <is_active>1</is_active>
@@ -1184,12 +1184,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>HeadOffTitle</name>
-    <title>HeadOffTitle</title>
+    <name>head_off_title</name>
+    <title>head_off_title</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>465</weight>
     <is_active>1</is_active>
@@ -1200,12 +1200,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>HeadOffFirstName</name>
-    <title>HeadOffFirstName</title>
+    <name>head_off_first_name</name>
+    <title>head_off_first_name</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>477</weight>
     <is_active>1</is_active>
@@ -1216,12 +1216,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>HeadOffLastName</name>
-    <title>HeadOffLastName</title>
+    <name>head_off_last_name</name>
+    <title>head_off_last_name</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>489</weight>
     <is_active>1</is_active>
@@ -1232,12 +1232,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>HeadOffStreet</name>
-    <title>HeadOffStreet</title>
+    <name>head_off_street</name>
+    <title>head_off_street</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>505</weight>
     <is_active>1</is_active>
@@ -1248,12 +1248,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>HeadOffCity</name>
-    <title>HeadOffCity</title>
+    <name>head_off_city</name>
+    <title>head_off_city</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>507</weight>
     <is_active>1</is_active>
@@ -1264,12 +1264,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>HeadOffSt</name>
-    <title>HeadOffSt</title>
+    <name>head_off_st</name>
+    <title>head_off_st</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>519</weight>
     <is_active>1</is_active>
@@ -1280,12 +1280,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>MngmtCorp</name>
-    <title>MngmtCorp</title>
+    <name>mngmt_corp</name>
+    <title>mngmt_corp</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>551</weight>
     <is_active>1</is_active>
@@ -1296,12 +1296,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>MngmtFirstName</name>
-    <title>MngmtFirstName</title>
+    <name>mngmt_first_name</name>
+    <title>mngmt_first_name</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>564</weight>
     <is_active>1</is_active>
@@ -1312,12 +1312,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>MngmtLastName</name>
-    <title>MngmtLastName</title>
+    <name>mngmt_last_name</name>
+    <title>mngmt_last_name</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>577</weight>
     <is_active>1</is_active>
@@ -1328,12 +1328,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>MngmtStreetNum</name>
-    <title>MngmtStreetNum</title>
+    <name>mngmt_street_num</name>
+    <title>mngmt_street_num</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>590</weight>
     <is_active>1</is_active>
@@ -1344,12 +1344,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>MngmtStreet</name>
-    <title>MngmtStreet</title>
+    <name>mngmt_street</name>
+    <title>mngmt_street</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>603</weight>
     <is_active>1</is_active>
@@ -1360,12 +1360,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>MngmtApt</name>
-    <title>MngmtApt</title>
+    <name>mngmt_apt</name>
+    <title>mngmt_apt</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>616</weight>
     <is_active>1</is_active>
@@ -1376,12 +1376,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>MngmtCity</name>
-    <title>MngmtCity</title>
+    <name>mngmt_city</name>
+    <title>mngmt_city</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>629</weight>
     <is_active>1</is_active>
@@ -1392,12 +1392,12 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>MngmtSt</name>
-    <title>MngmtSt</title>
+    <name>mngmt_st</name>
+    <title>mngmt_st</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>642</weight>
     <is_active>1</is_active>
@@ -1408,8 +1408,8 @@
     <in_selector>1</in_selector>
   </field>
   <field>
-    <name>Violations_Current_As_Of</name>
-    <title>Violations Current As Of</title>
+    <name>violations_current_as_of</name>
+    <title>violations_current_as_of</title>
     <data_type>Date</data_type>
     <html_type>Select Date</html_type>
     <is_required>0</is_required>
@@ -1426,12 +1426,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>HeadOffApt</name>
-    <title>HeadOffApt</title>
+    <name>head_off_apt</name>
+    <title>head_off_apt</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>531</weight>
     <is_active>1</is_active>
@@ -1442,12 +1442,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>CorpStreetNum</name>
-    <title>CorpStreetNum</title>
+    <name>corp_street_num</name>
+    <title>corp_street_num</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>643</weight>
     <is_active>1</is_active>
@@ -1458,12 +1458,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>HeadOffStreetNum</name>
-    <title>HeadOffStreetNum</title>
+    <name>head_off_street_num</name>
+    <title>head_off_street_num</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>644</weight>
     <is_active>1</is_active>
@@ -1474,12 +1474,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>ERPs</name>
-    <title>ERPs</title>
+    <name>erps</name>
+    <title>erps</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>645</weight>
     <is_active>1</is_active>
@@ -1490,12 +1490,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>SoldLiensOpen</name>
-    <title>SoldLiensOpen</title>
+    <name>sold_liens_open</name>
+    <title>sold_liens_open</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>646</weight>
     <is_active>1</is_active>
@@ -1506,12 +1506,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>Open_I_Violations</name>
-    <title>Open_I_Violations</title>
+    <name>open_I_violations</name>
+    <title>open_I_violations</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>647</weight>
     <is_active>1</is_active>
@@ -1522,12 +1522,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>PriorYear_V_to_C_Ratio</name>
-    <title>PriorYear_V_to_C_Ratio</title>
+    <name>prior_year_v_to_c_ratio</name>
+    <title>prior_year_v_to_c_ratio</title>
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>648</weight>
     <is_active>1</is_active>
@@ -1538,12 +1538,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>IndivStreetNum</name>
-    <title>IndivStreetNum</title>
+    <name>indiv_street_num</name>
+    <title>indiv_street_num</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>649</weight>
     <is_active>1</is_active>
@@ -1554,12 +1554,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>HeadOffZip</name>
-    <title>HeadOffZip</title>
+    <name>head_off_zip</name>
+    <title>head_off_zip</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>650</weight>
     <is_active>1</is_active>
@@ -1570,12 +1570,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>IndivZip</name>
-    <title>IndivZip</title>
+    <name>indiv_zip</name>
+    <title>indiv_zip</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>651</weight>
     <is_active>1</is_active>
@@ -1591,7 +1591,7 @@
     <data_type>Float</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>652</weight>
     <is_active>1</is_active>
@@ -1602,12 +1602,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>CorpZip</name>
-    <title>CorpZip</title>
+    <name>corp_zip</name>
+    <title>corp_zip</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>653</weight>
     <is_active>1</is_active>
@@ -1618,12 +1618,12 @@
     <in_selector>0</in_selector>
   </field>
   <field>
-    <name>MngmtZip</name>
-    <title>MngmtZip</title>
+    <name>mngmt_zip</name>
+    <title>mngmt_zip</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>654</weight>
     <is_active>1</is_active>
@@ -1639,7 +1639,7 @@
     <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
-    <is_searchable>0</is_searchable>
+    <is_searchable>1</is_searchable>
     <is_search_range>0</is_search_range>
     <weight>655</weight>
     <is_active>1</is_active>
@@ -1652,7 +1652,7 @@
   <OptionGroups>
     <OptionGroup>
       <name>lucategory</name>
-      <title>LUCATEGORY</title>
+      <title>lucategory</title>
       <is_reserved>1</is_reserved>
       <is_active>1</is_active>
       <is_locked>0</is_locked>

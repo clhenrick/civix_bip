@@ -111,8 +111,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>BOROCODE</name>
-      <label>BOROCODE</label>
+      <name>borocode</name>
+      <label>borocode</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -129,8 +129,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>BLOCK</name>
-      <label>BLOCK</label>
+      <name>block</name>
+      <label>block</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -147,8 +147,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>LOT</name>
-      <label>LOT</label>
+      <name>lot</name>
+      <label>lot</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -165,8 +165,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>COMMDIST</name>
-      <label>COMMDIST</label>
+      <name>commdist</name>
+      <label>commdist</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -183,8 +183,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>LUCATEGORY</name>
-      <label>LUCATEGORY</label>
+      <name>lucategory</name>
+      <label>lucategory</label>
       <data_type>String</data_type>
       <html_type>Multi-Select</html_type>
       <is_required>0</is_required>
@@ -310,8 +310,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Open_Violations</name>
-      <label>Open Violations</label>
+      <name>open_violations</name>
+      <label>open_violations</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -328,8 +328,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Open_A_Violations</name>
-      <label>Open A Violations</label>
+      <name>open_a_violations</name>
+      <label>open_a_violations</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -346,8 +346,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Open_B_Violations</name>
-      <label>Open_B_Violations</label>
+      <name>open_b_violations</name>
+      <label>open_b_violations</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -364,8 +364,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Open_C_Violations</name>
-      <label>Open_C_Violations</label>
+      <name>open_c_violations</name>
+      <label>open_c_violations</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -382,8 +382,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>PriorYear_Violations</name>
-      <label>PriorYear_Violations</label>
+      <name>prior_year_violations</name>
+      <label>prior_year_violations</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -395,13 +395,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>prioryear_violations_175</column_name>
+      <column_name>prior_year_violations_175</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>PriorYear_A_Violations</name>
-      <label>PriorYear_A_Violations</label>
+      <name>prior_year_a_violations</name>
+      <label>prior_year_a_violations</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -413,13 +413,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>prioryear_a_violations_176</column_name>
+      <column_name>prior_year_a_violations_176</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>PriorYear_B_Violations</name>
-      <label>PriorYear_B_Violations</label>
+      <name>prior_year_b_violations</name>
+      <label>prior_year_b_violations</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -431,13 +431,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>prioryear_b_violations_177</column_name>
+      <column_name>prior_year_b_violations_177</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>PriorYear_C_Violations</name>
-      <label>PriorYear_C_Violations</label>
+      <name>prior_year_c_violations</name>
+      <label>prior_year_c_violations</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -449,13 +449,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>prioryear_c_violations_178</column_name>
+      <column_name>prior_year_c_violations_178</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Seven_A</name>
-      <label>Seven_A</label>
+      <name>seven_a</name>
+      <label>seven_a</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -472,8 +472,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>AEP</name>
-      <label>AEP</label>
+      <name>aep</name>
+      <label>aep</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -490,8 +490,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>PPI</name>
-      <label>PPI</label>
+      <name>ppi</name>
+      <label>ppi</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -508,8 +508,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Underlying_Conditions</name>
-      <label>Underlying_Conditions</label>
+      <name>underlying_conditions</name>
+      <label>underlying_conditions</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -526,8 +526,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>NYC_421A_Exempt_Properties</name>
-      <label>NYC 421A Exempt Properties</label>
+      <name>nyc_421a_exempt_properties</name>
+      <label>nyc_421a_exempt_properties</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -544,8 +544,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>PriorYear_311_Comps</name>
-      <label>PriorYear_311 Comps</label>
+      <name>prior_year_311_comps</name>
+      <label>prior_year_311_comps</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -557,7 +557,7 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>prioryear_311_comps_184</column_name>
+      <column_name>prior_year_311_comps_184</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
@@ -616,8 +616,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Water</name>
-      <label>Water</label>
+      <name>water</name>
+      <label>water</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -634,8 +634,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Umbrella</name>
-      <label>Umbrella</label>
+      <name>umbrella</name>
+      <label>umbrella</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -709,8 +709,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Absolute</name>
-      <label>Absolute</label>
+      <name>absolute</name>
+      <label>absolute</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -727,8 +727,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Per_Unit</name>
-      <label>Per Unit</label>
+      <name>per_unit</name>
+      <label>per_unit</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -745,8 +745,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Current_BIP_Score</name>
-      <label>Current BIP_Score</label>
+      <name>current_bip_score</name>
+      <label>current_bip_score</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -763,8 +763,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2015April</name>
-      <label>Score_2015April</label>
+      <name>score_2015_april</name>
+      <label>score_2015_april</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -776,13 +776,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2015april_200</column_name>
+      <column_name>score_2015_april_200</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2015Jan</name>
-      <label>Score_2015Jan</label>
+      <name>score_2015_jan</name>
+      <label>score_2015_jan</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -794,13 +794,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2015jan_201</column_name>
+      <column_name>score_2015_jan_201</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2014Oct</name>
-      <label>Score_2014Oct</label>
+      <name>score_2014_oct</name>
+      <label>score_2014_oct</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -812,13 +812,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2014oct_202</column_name>
+      <column_name>score_2014_oct_202</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2014Jun</name>
-      <label>Score_2014Jun</label>
+      <name>score_2014_jun</name>
+      <label>score_2014_jun</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -830,13 +830,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2014jun_203</column_name>
+      <column_name>score_2014_jun_203</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2014Feb</name>
-      <label>Score_2014Feb</label>
+      <name>score_2014_feb</name>
+      <label>score_2014_feb</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -848,13 +848,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2014feb_204</column_name>
+      <column_name>score_2014_feb_204</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2013Nov</name>
-      <label>Score_2013Nov</label>
+      <name>score_2013_nov</name>
+      <label>score_2013_nov</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -866,13 +866,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2013nov_205</column_name>
+      <column_name>score_2013_nov_205</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2013Aug</name>
-      <label>Score_2013Aug</label>
+      <name>score_2013_aug</name>
+      <label>score_2013_aug</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -884,13 +884,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2013aug_206</column_name>
+      <column_name>score_2013_aug_206</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2013April</name>
-      <label>Score_2013April</label>
+      <name>score_2013_april</name>
+      <label>score_2013_april</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -902,13 +902,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2013april_207</column_name>
+      <column_name>score_2013_april_207</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2012Nov</name>
-      <label>Score_2012Nov</label>
+      <name>score_2012_nov</name>
+      <label>score_2012_nov</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -920,13 +920,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2012nov_208</column_name>
+      <column_name>score_2012_nov_208</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2012June</name>
-      <label>Score_2012June</label>
+      <name>score_2012_june</name>
+      <label>score_2012_june</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -938,13 +938,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2012june_209</column_name>
+      <column_name>score_2012_june_209</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2012Jan</name>
-      <label>Score_2012Jan</label>
+      <name>score_2012_jan</name>
+      <label>score_2012_jan</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -956,13 +956,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>score_2012jan_210</column_name>
+      <column_name>score_2012_jan_210</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2010_2</name>
-      <label>Score_2010-2</label>
+      <name>score_2010_2</name>
+      <label>score_2010_2</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -979,8 +979,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2010_1</name>
-      <label>Score_2010-1</label>
+      <name>score_2010_1</name>
+      <label>score_2010_1</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -997,8 +997,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2009_2</name>
-      <label>Score_2009-2</label>
+      <name>score_2009_2</name>
+      <label>score_2009_2</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1015,8 +1015,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2009_1</name>
-      <label>Score_2009-1</label>
+      <name>score_2009_1</name>
+      <label>score_2009_1</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1033,8 +1033,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Score_2008_2</name>
-      <label>Score_2008-2</label>
+      <name>score_2008_2</name>
+      <label>score_2008_2</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1051,8 +1051,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Occurance</name>
-      <label>Occurance</label>
+      <name>cccurance</name>
+      <label>cccurance</label>
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1069,8 +1069,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Average</name>
-      <label>Average</label>
+      <name>average</name>
+      <label>average</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1087,8 +1087,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>CDFAvg</name>
-      <label>CDFAvg</label>
+      <name>cdf_avg</name>
+      <label>cdf_avg</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1100,13 +1100,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>cdfavg_218</column_name>
+      <column_name>cdf_avg_218</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>CorpName</name>
-      <label>CorpName</label>
+      <name>corp_name</name>
+      <label>corp_name</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1118,13 +1118,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>corpname_219</column_name>
+      <column_name>corp_name_219</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>CorpStreet</name>
-      <label>CorpStreet</label>
+      <name>corp_street</name>
+      <label>corp_street</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1136,13 +1136,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>corpstreet_221</column_name>
+      <column_name>corp_street_221</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>CorpApt</name>
-      <label>CorpApt</label>
+      <name>corp_apt</name>
+      <label>corp_apt</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1154,13 +1154,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>corpapt_222</column_name>
+      <column_name>corp_apt_222</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>CorpCity</name>
-      <label>CorpCity</label>
+      <name>corp_city</name>
+      <label>corp_city</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1172,13 +1172,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>corpcity_223</column_name>
+      <column_name>corp_city_223</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>CorpState</name>
-      <label>CorpState</label>
+      <name>corp_state</name>
+      <label>corp_state</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1190,13 +1190,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>corpstate_224</column_name>
+      <column_name>corp_state_224</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>IndivFirstName</name>
-      <label>IndivFirstName</label>
+      <name>indiv_first_name</name>
+      <label>indiv_first_name</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1208,13 +1208,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>indivfirstname_226</column_name>
+      <column_name>indiv_first_name_226</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>IndivLastName</name>
-      <label>IndivLastName</label>
+      <name>indiv_last_name</name>
+      <label>indiv_last_name</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1226,13 +1226,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>indivlastname_227</column_name>
+      <column_name>indiv_last_name_227</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>IndivStreet</name>
-      <label>IndivStreet</label>
+      <name>indiv_street</name>
+      <label>indiv_street</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1244,13 +1244,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>indivstreet_229</column_name>
+      <column_name>indiv_street_229</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>IndivApt</name>
-      <label>IndivApt</label>
+      <name>indiv_apt</name>
+      <label>indiv_apt</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1262,13 +1262,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>indivapt_230</column_name>
+      <column_name>indiv_apt_230</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>IndivCity</name>
-      <label>IndivCity</label>
+      <name>indiv_city</name>
+      <label>indiv_city</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1280,13 +1280,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>indivcity_231</column_name>
+      <column_name>indiv_city_231</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>IndivSt</name>
-      <label>IndivSt</label>
+      <name>indiv_st</name>
+      <label>indiv_st</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1298,13 +1298,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>indivst_232</column_name>
+      <column_name>indiv_st_232</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffTitle</name>
-      <label>HeadOffTitle</label>
+      <name>head_off_title</name>
+      <label>head_off_title</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1316,13 +1316,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headofftitle_234</column_name>
+      <column_name>head_off_title_234</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffFirstName</name>
-      <label>HeadOffFirstName</label>
+      <name>head_off_first_name</name>
+      <label>head_off_first_name</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1334,13 +1334,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headofffirstname_235</column_name>
+      <column_name>head_off_first_name_235</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffLastName</name>
-      <label>HeadOffLastName</label>
+      <name>head_off_last_name</name>
+      <label>head_off_last_name</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1352,13 +1352,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headofflastname_236</column_name>
+      <column_name>head_off_last_name_236</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffStreet</name>
-      <label>HeadOffStreet</label>
+      <name>head_off_street</name>
+      <label>head_off_street</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1370,13 +1370,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headoffstreet_238</column_name>
+      <column_name>head_off_street_238</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffCity</name>
-      <label>HeadOffCity</label>
+      <name>head_off_city</name>
+      <label>head_off_city</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1388,13 +1388,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headoffcity_240</column_name>
+      <column_name>head_off_city_240</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffSt</name>
-      <label>HeadOffSt</label>
+      <name>head_off_st</name>
+      <label>head_off_st</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1406,13 +1406,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headoffst_241</column_name>
+      <column_name>head_off_st_241</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtCorp</name>
-      <label>MngmtCorp</label>
+      <name>mngmt_corp</name>
+      <label>mngmt_corp</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1424,13 +1424,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtcorp_243</column_name>
+      <column_name>mngmt_corp_243</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtFirstName</name>
-      <label>MngmtFirstName</label>
+      <name>mngmt_first_name</name>
+      <label>mngmt_first_name</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1442,13 +1442,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtfirstname_244</column_name>
+      <column_name>mngmt_first_name_244</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtLastName</name>
-      <label>MngmtLastName</label>
+      <name>mngmt_last_name</name>
+      <label>mngmt_last_name</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1460,13 +1460,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtlastname_245</column_name>
+      <column_name>mngmt_last_name_245</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtStreetNum</name>
-      <label>MngmtStreetNum</label>
+      <name>mngmt_street_num</name>
+      <label>mngmt_street_num</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1478,13 +1478,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtstreetnum_246</column_name>
+      <column_name>mngmt_street_num_246</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtStreet</name>
-      <label>MngmtStreet</label>
+      <name>mngmt_street</name>
+      <label>mngmt_street</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1496,13 +1496,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtstreet_247</column_name>
+      <column_name>mngmt_street_247</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtApt</name>
-      <label>MngmtApt</label>
+      <name>mngmt_apt</name>
+      <label>mngmt_apt</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1514,13 +1514,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtapt_248</column_name>
+      <column_name>mngmt_apt_248</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtCity</name>
-      <label>MngmtCity</label>
+      <name>mngmt_city</name>
+      <label>mngmt_city</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1532,13 +1532,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtcity_249</column_name>
+      <column_name>mngmt_city_249</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtSt</name>
-      <label>MngmtSt</label>
+      <name>mngmt_st</name>
+      <label>mngmt_st</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1550,13 +1550,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtst_250</column_name>
+      <column_name>mngmt_st_250</column_name>
       <in_selector>1</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Violations_Current_As_Of</name>
-      <label>Violations Current As Of</label>
+      <name>violations_current_as_of</name>
+      <label>violations_current_as_of</label>
       <data_type>Date</data_type>
       <html_type>Select Date</html_type>
       <is_required>0</is_required>
@@ -1575,8 +1575,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffApt</name>
-      <label>HeadOffApt</label>
+      <name>head_off_apt</name>
+      <label>head_off_apt</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1588,13 +1588,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headoffapt_255</column_name>
+      <column_name>head_off_apt_255</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>CorpStreetNum</name>
-      <label>CorpStreetNum</label>
+      <name>corp_street_num</name>
+      <label>corp_street_num</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1606,13 +1606,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>corpstreetnum_256</column_name>
+      <column_name>corp_street_num_256</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffStreetNum</name>
-      <label>HeadOffStreetNum</label>
+      <name>head_off_street_num</name>
+      <label>head_off_street_num</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1624,13 +1624,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headoffstreetnum_257</column_name>
+      <column_name>head_off_street_num_257</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>ERPs</name>
-      <label>ERPs</label>
+      <name>erps</name>
+      <label>erps</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1647,8 +1647,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>SoldLiensOpen</name>
-      <label>SoldLiensOpen</label>
+      <name>sold_liens_open</name>
+      <label>sold_liens_open</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1660,13 +1660,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>soldliensopen_260</column_name>
+      <column_name>sold_liens_open_260</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>Open_I_Violations</name>
-      <label>Open_I_Violations</label>
+      <name>open_I_violations</name>
+      <label>open_I_violations</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1683,8 +1683,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>PriorYear_V_to_C_Ratio</name>
-      <label>PriorYear_V_to_C_Ratio</label>
+      <name>prior_year_v_to_c_ratio</name>
+      <label>prior_year_v_to_c_ratio</label>
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1696,13 +1696,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>prioryear_v_to_c_ratio_262</column_name>
+      <column_name>prior_year_v_to_c_ratio_262</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>IndivStreetNum</name>
-      <label>IndivStreetNum</label>
+      <name>indiv_street_num</name>
+      <label>indiv_street_num</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1714,13 +1714,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>indivstreetnum_263</column_name>
+      <column_name>indiv_street_num_263</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>HeadOffZip</name>
-      <label>HeadOffZip</label>
+      <name>head_off_zip</name>
+      <label>head_off_zip</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1732,13 +1732,13 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>headoffzip_264</column_name>
+      <column_name>head_off_zip_264</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>IndivZip</name>
-      <label>IndivZip</label>
+      <name>indiv_zip</name>
+      <label>indiv_zip</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1750,7 +1750,7 @@
       <text_length>255</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>indivzip_265</column_name>
+      <column_name>indiv_zip_265</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
@@ -1773,8 +1773,8 @@
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>CorpZip</name>
-      <label>CorpZip</label>
+      <name>corp_zip</name>
+      <label>corp_zip</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1786,13 +1786,13 @@
       <text_length>10</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>corpzip_267</column_name>
+      <column_name>corp_zip_267</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>MngmtZip</name>
-      <label>MngmtZip</label>
+      <name>mngmt_zip</name>
+      <label>mngmt_zip</label>
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
@@ -1804,7 +1804,7 @@
       <text_length>10</text_length>
       <note_columns>60</note_columns>
       <note_rows>4</note_rows>
-      <column_name>mngmtzip_268</column_name>
+      <column_name>mngmt_zip_268</column_name>
       <in_selector>0</in_selector>
       <custom_group_name>Bip_Data</custom_group_name>
     </CustomField>
@@ -1830,7 +1830,7 @@
   <OptionGroups>
     <OptionGroup>
       <name>lucategory_20160108224032</name>
-      <title>LUCATEGORY</title>
+      <title>lucategory</title>
       <is_reserved>1</is_reserved>
       <is_active>1</is_active>
       <is_locked>0</is_locked>

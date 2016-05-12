@@ -9,7 +9,7 @@ require_once 'bipdata.civix.php';
  * @return custom id
  *   custom field id if it exists, else zero
  */
-function custom_field_get_id($field_label) {
+function custom_field_id($field_label) {
   $result = 0;
   $response = civicrm_api3('CustomField', 'get', array(
     'sequential' => 1,
@@ -24,7 +24,7 @@ function custom_field_get_id($field_label) {
 function bipdata_civicrm_pre($op, $objectName, $id, &$params) {
   // This hook fires all the time, only run this code if we're creating/editing an address
   if ($objectName == 'Address' && $op == 'edit') {
-    $custom_id = custom_field_get_id('BBL');
+    $custom_id = custom_field_id('BBL');
     $custom_field = 'custom_' . $custom_id;
 
     // 1) the custom_153 field as part of the params is
@@ -48,111 +48,311 @@ function bipdata_civicrm_pre($op, $objectName, $id, &$params) {
       foreach ($response['values'] as $key => $result) {
         $set_params = array('entityID' => $id);
 
-        // 2) is the only way to actually set these values
-        // going to be, a) find all custom ids, then create an array
-        // with var names as keys and the custom_ID as the value?
-        $set_params['custom_391'] = $result['absolute'];
-        CRM_Core_BAO_CustomValueTable::setValues($set_params);
+        // 2) the only way to actually set these values is
+        // going to be
+        // a) find all custom ids, then
+        // b) create an array with var names as keys and the custom_ID as the value?
+        $absolute = custom_field_id('absolute');
+        $set_params['custom_'. $absolute] = $result['absolute'];
 
-        // $set_params['bip_address_270'] = $result['address'];
-        // $set_params['res_unit_154'] = $result['res_unit'];
-        // $set_params['tot_unit_155'] = $result['tot_unit'];
-        // $set_params['num_floors_156'] = $result['num_floors'];
-        // $set_params['census_tract_157'] = $result['census_tract'];
-        // $set_params['borocode_159'] = $result['borocode'];
-        // $set_params['block_160'] = $result['block'];
-        // $set_params['lot_161'] = $result['lot'];
-        // $set_params['commdist_162'] = $result['commdist'];
-        // $set_params['lucategory_163'] = $result['lucategory'];
-        // $set_params['year_built_164'] = $result['year_built'];
-        // $set_params['yr_1st_alt_165'] = $result['yr_1st_alt'];
-        // $set_params['yr_2nd_alt_166'] = $result['yr_2nd_alt'];
-        // $set_params['bldg_class_167'] = $result['bldg_class'];
-        // $set_params['zoning_gen_168'] = $result['zoning_gen'];
-        // $set_params['zoning_169'] = $result['zoning'];
-        // $set_params['open_violations_171'] = $result['open_violations'];
-        // $set_params['open_a_violations_172'] = $result['open_a_violations'];
-        // $set_params['open_b_violations_173'] = $result['open_b_violations'];
-        // $set_params['open_c_violations_174'] = $result['open_c_violations'];
-        // $set_params['prioryear_violations_175'] = $result['prioryear_violations'];
-        // $set_params['prioryear_a_violations_176'] = $result['prioryear_a_violations'];
-        // $set_params['prioryear_b_violations_177'] = $result['prioryear_b_violations'];
-        // $set_params['prioryear_c_violations_178'] = $result['prioryear_c_violations'];
-        // $set_params['seven_a_179'] = $result['seven_a'];
-        // $set_params['aep_180'] = $result['aep'];
-        // $set_params['ppi_181'] = $result['ppi'];
-        // $set_params['underlying_conditions_182'] = $result['underlying_conditions'];
-        // $set_params['nyc_421a_exempt_properties_183'] = $result['nyc_421a_exempt_properties'];
-        // $set_params['dob_violation_186'] = $result['dob_violation'];
-        // $set_params['ecb_violation_187'] = $result['ecb_violation'];
-        // $set_params['city_lien_188'] = $result['city_lien'];
-        // $set_params['water_190'] = $result['water'];
-        // $set_params['umbrella_192'] = $result['umbrella'];
-        // $set_params['party_name_193'] = $result['party_name'];
-        // $set_params['document_type_194'] = $result['document_type'];
-        // $set_params['recorded_filed_196'] = $result['recorded_filed'];
-        // $set_params['absolute_197'] = $result['absolute'];
-        // $set_params['per_unit_198'] = $result['per_unit'];
-        // $set_params['current_bip_score_199'] = $result['current_bip_score'];
-        // $set_params['score_2015april_200'] = $result['score_2015april'];
-        // $set_params['score_2015jan_201'] = $result['score_2015jan'];
-        // $set_params['score_2014oct_202'] = $result['score_2014oct'];
-        // $set_params['score_2014jun_203'] = $result['score_2014jun'];
-        // $set_params['score_2014feb_204'] = $result['score_2014feb'];
-        // $set_params['score_2013nov_205'] = $result['score_2013nov'];
-        // $set_params['score_2013aug_206'] = $result['score_2013aug'];
-        // $set_params['score_2013april_207'] = $result['score_2013april'];
-        // $set_params['score_2012nov_208'] = $result['score_2012nov'];
-        // $set_params['score_2012june_209'] = $params['score_2012june'];
-        // $set_params['score_2012jan_210'] = $params['score_2012jan'];
-        // $set_params['score_2010_2_211'] = $params['score_2010_2'];
-        // $set_params['score_2010_1_212'] = $params['score_2010_1'];
-        // $set_params['score_2009_2_213'] = $params['score_2009_2'];
-        // $set_params['score_2009_1_214'] = $params['score_2009_1'];
-        // $set_params['score_2008_2_215'] = $params['score_2008_2'];
-        // $set_params['occurance_216'] = $result['occurance'];
-        // $set_params['average_217'] = $result['average'];
-        // $set_params['cdfavg_218'] = $result['cdfavg'];
-        // $set_params['corpname_219'] = $result['corpname'];
-        // $set_params['corpstreet_221'] = $result['corpstreet'];
-        // $set_params['corpapt_222'] = $result['corpapt'];
-        // $set_params['corpcity_223'] = $result['corpcity'];
-        // $set_params['corpstate_224'] = $result['corpstate'];
-        // $set_params['indivfirstname_226'] = $result['indivfirstname'];
-        // $set_params['indivlastname_227'] = $result['indivlastname'];
-        // $set_params['indivstreet_229'] = $result['indivstreet'];
-        // $set_params['indivapt_230'] = $result['indivapt'];
-        // $set_params['indivcity_231'] = $result['indivcity'];
-        // $set_params['indivst_232'] = $result['indivst'];
-        // $set_params['headofftitle_234'] = $result['headofftitle'];
-        // $set_params['headofffirstname_235'] = $result['headofffirstname'];
-        // $set_params['headofflastname_236'] = $result['headofflastname'];
-        // $set_params['headoffstreet_238'] = $result['headoffstreet'];
-        // $set_params['headoffcity_240'] = $result['headoffcity'];
-        // $set_params['headoffst_241'] = $result['headoffst'];
-        // $set_params['mngmtcorp_243'] = $result['mngmtcorp'];
-        // $set_params['mngmtfirstname_244'] = $result['mngmtfirstname'];
-        // $set_params['mngmtlastname_245'] = $result['mngmtlastname'];
-        // $set_params['mngmtstreetnum_246'] = $result['mngmtstreetnum'];
-        // $set_params['mngmtstreet_247'] = $result['mngmtstreet'];
-        // $set_params['mngmtapt_248'] = $result['mngmtapt'];
-        // $set_params['mngmtcity_249'] = $result['mngmtcity'];
-        // $set_params['mngmtst_250'] = $result['mngmtst'];
-        // $set_params['violations_current_as_of_252'] = $result['violations_current_as_of'];
-        // $set_params['headoffapt_255'] = $result['headoffapt'];
-        // $set_params['corpstreetnum_256'] = $result['corpstreetnum'];
-        // $set_params['headoffstreetnum_257'] = $result['headoffstreetnum'];
-        // $set_params['erps_258'] = $result['erps'];
-        // $set_params['soldliensopen_260'] = $result['soldliensopen'];
-        // $set_params['open_i_violations_261'] = $result['open_i_violations'];
-        // $set_params['prioryear_v_to_c_ratio_262'] = $result['prioryear_v_to_c_ratio'];
-        // $set_params['indivstreetnum_263'] == $result['indivstreetnum'];
-        // $set_params['headoffzip_264'] = $result['headoffzip'];
-        // $set_params['indivzip_265'] = $result['indivzip'];
-        // $set_params['doc_amount_266'] = $result['doc_amount'];
-        // $set_params['corpzip_267'] = $result['corpzip'];
-        // $set_params['mngmtzip_268'] = $result['mngmtzip'];
-        // $set_params['zip_code_269'] = $result['zip_code'];
+        $bip_address = custom_field_id('bip_address');
+        $set_params['custom_' . $bip_address] = $result['address'];
+
+        $res_unit = custom_field_get_id('res_unit');
+        $set_params['custom_' . $res_unit] = $result['res_unit'];
+
+        $tot_unit = custom_field_get_id('tot_unit');
+        $set_params['custom_' + $tot_unit] = $result['tot_unit'];
+
+        $num_floors = custom_field_get_id('num_floors');
+        $set_params['custom_' + $num_floors] = $result['num_floors'];
+
+        $census_tract = custom_field_get_id('census_tract');
+        $set_params['custom_' + $census_tract] = $result['census_tract'];
+
+        $borocode = custom_field_get_id('borocode');
+        $set_params['custom_' + $borocode] = $result['borocode'];
+
+        $block = custom_field_get_id('block');
+        $set_params['custom_' + $borocode] = $result['block'];
+
+        $lot = custom_field_get_id('lot');
+        $set_params['custom_' + $lot] = $result['lot'];
+
+        $commdist = custom_field_get_id('commdist');
+        $set_params['custom_' + $commdist] = $result['commdist'];
+
+        $lucategory = custom_field_get_id('lucategory');
+        $set_params['custom_' + $lucategory] = $result['lucategory'];
+
+        $year_built = custom_field_get_id('year_built');
+        $set_params['custom_' + $year_built] = $result['year_built'];
+
+        $yr_1st_alt = custom_field_get_id('yr_1st_alt');
+        $set_params['custom_' + $yr_1st_alt] = $result['yr_1st_alt'];
+
+        $yr_2nd_alt = custom_field_get_id('yr_2nd_alt');
+        $set_params['custom_' + $yr_2nd_alt] = $result['yr_2nd_alt'];
+
+        $bldg_class = custom_field_get_id('bldg_class');
+        $set_params['custom_' + $bldg_class] = $result['bldg_class'];
+
+        $zoning_gen = custom_field_get_id('zoning_gen');
+        $set_params['custom_' + $zoning_gen] = $result['zoning_gen'];
+
+        $zoning = custom_field_get_id('zoning');
+        $set_params['custom_' + $zoning] = $result['zoning'];
+
+        $open_violations = custom_field_get_id('open_violations');
+        $set_params['custom_' + $open_violations] = $result['open_violations'];
+
+        $open_a_violations = custom_field_get_id('open_a_violations');
+        $set_params['custom_' + $open_a_violations] = $result['open_a_violations'];
+
+        $open_b_violations = custom_field_get_id('open_b_violations');
+        $set_params['custom_' + $open_b_violations] = $result['open_b_violations'];
+
+        $open_c_violations = custom_field_get_id('open_c_violations');
+        $set_params['custom_' + $open_c_violations] = $result['open_c_violations'];
+
+        $prior_year_violations = custom_field_get_id('prior_year_violations');
+        $set_params['custom_' + $prior_year_violations] = $result['prior_year_violations'];
+
+        $prior_year_a_violations = custom_field_get_id('prior_year_a_violations');
+        $set_params['custom_' + $prior_year_a_violations] = $result['prior_year_a_violations'];
+
+        $prior_year_b_violations = custom_field_get_id('prior_year_b_violations');
+        $set_params['custom_' + $prior_year_b_violations] = $result['prior_year_b_violations'];
+
+        $prior_year_c_violations = custom_field_get_id('prior_year_c_violations');
+        $set_params['custom_' + $prior_year_c_violations] = $result['prior_year_c_violations'];
+
+        $seven_a = custom_field_get_id('seven_a');
+        $set_params['custom_' + $seven_a] = $result['seven_a'];
+
+        $aep = custom_field_get_id('aep');
+        $set_params['custom_' + $aep] = $result['aep'];
+
+        $ppi = custom_field_get_id('ppi');
+        $set_params['custom_' + $ppi] = $result['ppi'];
+
+        $underlying_conditions = custom_field_get_id('underlying_conditions');
+        $set_params['custom_' + $underlying_conditions] = $result['underlying_conditions'];
+
+        $nyc_421a_exempt_properties = custom_field_get_id('nyc_421a_exempt_properties');
+        $set_params['custom_' + $nyc_421a_exempt_properties] = $result['nyc_421a_exempt_properties'];
+
+        $dob_violation = custom_field_get_id('dob_violation');
+        $set_params['custom_' + $dob_violation] = $result['dob_violation'];
+
+        $ecb_violation = custom_field_get_id('ecb_violation');
+        $set_params['custom_' + $ecb_violation] = $result['ecb_violation'];
+
+        $city_lien = custom_field_get_id('city_lien');
+        $set_params['custom_' + $city_lien] = $result['city_lien'];
+
+        $water = custom_field_get_id('water');
+        $set_params['custom_' + $water] = $result['water'];
+
+        $umbrella = custom_field_get_id('umbrella');
+        $set_params['custom_' + $umbrella] = $result['umbrella'];
+
+        $party_name = custom_field_get_id('party_name');
+        $set_params['custom_' + $party_name] = $result['party_name'];
+
+        $document_type = custom_field_get_id('document_type');
+        $set_params['custom_' + $document_type] = $result['document_type'];
+
+        $recorded_filed = custom_field_get_id('recorded_filed');
+        $set_params['custom_' + $recorded_filed] = $result['recorded_filed'];
+
+        $absolute = custom_field_get_id('absolute');
+        $set_params['custom_' + $absolute] = $result['absolute'];
+
+        $per_unit = custom_field_get_id('per_unit');
+        $set_params['custom_' + $per_unit] = $result['per_unit'];
+
+        $current_bip_score = custom_field_get_id('current_bip_score');
+        $set_params['custom_' + $current_bip_score] = $result['current_bip_score'];
+
+        $score_2015_april = custom_field_get_id('score_2015_april');
+        $set_params['custom_' + $score_2015_april] = $result['score_2015_april'];
+
+        $score_2015_jan = custom_field_get_id('score_2015_jan');
+        $set_params['custom_' + $score_2015_jan] = $result['score_2015_jan'];
+
+        $score_2014_oct = custom_field_get_id('score_2014_oct');
+        $set_params['custom_' + $score_2014_oct] = $result['score_2014_oct'];
+
+        $score_2014_jun = custom_field_get_id('score_2014_jun');
+        $set_params['custom_' + $score_2014_jun] = $result['score_2014_jun'];
+
+        $score_2014_feb = custom_field_get_id('score_2014_feb');
+        $set_params['custom_' + $score_2014_feb] = $result['score_2014_feb'];
+
+        $score_2013_nov = custom_field_get_id('score_2013_nov');
+        $set_params['custom_' + $score_2013_nov] = $result['score_2013_nov'];
+
+        $score_2013_aug = custom_field_get_id('score_2013_aug');
+        $set_params['custom_' + $score_2013_aug] = $result['score_2013_aug'];
+
+        $score_2013_april = custom_field_get_id('score_2013_april');
+        $set_params['custom_' + $score_2013_april] = $result['score_2013_april'];
+
+        $score_2012_nov = custom_field_get_id('score_2012_nov');
+        $set_params['custom_' + $score_2012_nov] = $result['score_2012_nov'];
+
+        $score_2012_june = custom_field_get_id('score_2012_june');
+        $set_params['custom_' + $score_2012_june] = $result['score_2012_june'];
+
+        $score_2012_jan = custom_field_get_id('score_2012_jan');
+        $set_params['custom_' + $score_2012_jan] = $result['score_2012_jan'];
+
+        $score_2010_2 = custom_field_get_id('score_2010_2');
+        $set_params['custom_' + $score_2010_2] = $result['score_2010_2'];
+
+        $score_2010_1 = custom_field_get_id('score_2010_1');
+        $set_params['custom_' + $score_2010_1] = $result['score_2010_1'];
+
+        $score_2009_2 = custom_field_get_id('score_2009_2');
+        $set_params['custom_' + $score_2009_2] = $result['score_2009_2'];
+
+        $score_2009_1 = custom_field_get_id('score_2009_1');
+        $set_params['custom_' + $score_2009_1] = $result['score_2009_1'];
+
+        $score_2008_2 = custom_field_get_id('score_2008_2');
+        $set_params['custom_' + $score_2008_2] = $result['score_2008_2'];
+
+        $occurance = custom_field_get_id('occurance');
+        $set_params['custom_' + $occurance] = $result['occurance'];
+
+        $average = custom_field_get_id('average');
+        $set_params['custom_' + $average] = $result['average'];
+
+        $cdf_avg = custom_field_get_id('cdf_avg');
+        $set_params['custom_' + $cdf_avg] = $result['cdf_avg'];
+
+        $corp_name = custom_field_get_id('corp_name');
+        $set_params['custom_' + $corp_name] = $result['corp_name'];
+
+        $corp_street = custom_field_get_id('corp_street');
+        $set_params['custom_' + $corp_street] = $result['corp_street'];
+
+        $corp_apt = custom_field_get_id('corp_apt');
+        $set_params['custom_' + $corp_apt] = $result['corp_apt'];
+
+        $corp_city = custom_field_get_id('corp_city');
+        $set_params['custom_' + $corp_city] = $result['corp_city'];
+
+        $corp_state = custom_field_get_id('corp_state');
+        $set_params['custom_' + $corp_state] = $result['corp_state'];
+
+        $indiv_first_name = custom_field_get_id('indiv_first_name');
+        $set_params['custom_' + $indiv_first_name] = $result['indiv_first_name'];
+
+        $indiv_last_name = custom_field_get_id('indiv_last_name');
+        $set_params['custom_' + $indiv_last_name] = $result['indiv_last_name'];
+
+        $indiv_street = custom_field_get_id('indiv_street');
+        $set_params['custom_' + $indiv_street] = $result['indiv_street'];
+
+        $indiv_apt = custom_field_get_id('indiv_apt');
+        $set_params['custom_' + $indiv_apt] = $result['indiv_apt'];
+
+        $indiv_city = custom_field_get_id('indiv_city');
+        $set_params['custom_' + $indiv_city] = $result['indiv_city'];
+
+        $indiv_st = custom_field_get_id('indiv_st');
+        $set_params['custom_' + $indiv_st] = $result['indiv_st'];
+
+        $head_off_title = custom_field_get_id('head_off_title');
+        $set_params['custom_' + $head_off_title] = $result['head_off_title'];
+
+        $head_off_first_name = custom_field_get_id('head_off_first_name');
+        $set_params['custom_' + $head_off_first_name] = $result['head_off_first_name'];
+
+        $head_off_last_name = custom_field_get_id('head_off_last_name');
+        $set_params['custom_' + $head_off_last_name] = $result['head_off_last_name'];
+
+        $head_off_street = custom_field_get_id('head_off_street');
+        $set_params['custom_' + $head_off_street] = $result['head_off_street'];
+
+        $head_off_city = custom_field_get_id('head_off_city');
+        $set_params['custom_' + $head_off_city] = $result['head_off_city'];
+
+        $head_off_st = custom_field_get_id('head_off_st');
+        $set_params['custom_' + $head_off_st] = $result['head_off_st'];
+
+        $mngmt_corp = custom_field_get_id('mngmt_corp');
+        $set_params['custom_' + $mngmt_corp] = $result['mngmt_corp'];
+
+        $mngmt_first_name = custom_field_get_id('mngmt_first_name');
+        $set_params['custom_' + $mngmt_first_name] = $result['mngmt_first_name'];
+
+        $mngmt_last_name = custom_field_get_id('mngmt_last_name');
+        $set_params['custom_' + $mngmt_last_name] = $result['mngmt_last_name'];
+
+        $mngmt_street_num = custom_field_get_id('mngmt_street_num');
+        $set_params['custom_' + $mngmt_street_num] = $result['mngmt_street_num'];
+
+        $mngmt_street = custom_field_get_id('mngmt_street');
+        $set_params['custom_' + $mngmt_street] = $result['mngmt_street'];
+
+        $mngmt_apt = custom_field_get_id('mngmt_apt');
+        $set_params['custom_' + $mngmt_apt] = $result['mngmt_apt'];
+
+        $mngmt_city = custom_field_get_id('mngmt_city');
+        $set_params['custom_' + $mngmt_city] = $result['mngmt_city'];
+
+        $mngmt_st = custom_field_get_id('mngmt_st');
+        $set_params['custom_' + $mngmt_st] = $result['mngmt_st'];
+
+        $violations_current_as_of = custom_field_get_id('violations_current_as_of');
+        $set_params['custom_' + $violations_current_as_of] = $result['violations_current_as_of'];
+
+        $head_off_apt = custom_field_get_id('head_off_apt');
+        $set_params['custom_' + $head_off_apt] = $result['head_off_apt'];
+
+        $corp_street_num = custom_field_get_id('corp_street_num');
+        $set_params['custom_' + $corp_street_num] = $result['corp_street_num'];
+
+        $head_off_street_num = custom_field_get_id('head_off_street_num');
+        $set_params['custom_' + $head_off_street_num] = $result['head_off_street_num'];
+
+        $erps = custom_field_get_id('erps');
+        $set_params['custom_' + $erps] = $result['erps'];
+
+        $sold_liens_open = custom_field_get_id('sold_liens_open');
+        $set_params['custom_' + $sold_liens_open] = $result['sold_liens_open'];
+
+        $open_i_violations = custom_field_get_id('open_i_violations');
+        $set_params['custom_' + $open_i_violations] = $result['open_i_violations'];
+
+        $prior_year_v_to_c_ratio = custom_field_get_id('prior_year_v_to_c_ratio');
+        $set_params['custom_' + $prior_year_v_to_c_ratio] = $result['prior_year_v_to_c_ratio'];
+
+        $indiv_street_num = custom_field_get_id('indiv_street_num');
+        $set_params['custom_' + $indiv_street_num] = $result['indiv_street_num'];
+
+        $head_off_zip = custom_field_get_id('head_off_zip');
+        $set_params['custom_' + $head_off_zip] = $result['head_off_zip'];
+
+        $indiv_zip = custom_field_get_id('indiv_zip');
+        $set_params['custom_' + $indiv_zip] = $result['indiv_zip'];
+
+        $doc_amount = custom_field_get_id('doc_amount');
+        $set_params['custom_' + $doc_amount] = $result['doc_amount'];
+
+        $corp_zip = custom_field_get_id('corp_zip');
+        $set_params['custom_' + $corp_zip] = $result['corp_zip'];
+
+        $mngmt_zip = custom_field_get_id('mngmt_zip');
+        $set_params['custom_' + $mngmt_zip] = $result['mngmt_zip'];
+
+        $zip_code = custom_field_get_id('zip_code');
+        $set_params['custom_' + $zip_code] = $result['zip_code'];
+
+        CRM_Core_BAO_CustomValueTable::setValues($set_params);
       }
     } else {
       return;

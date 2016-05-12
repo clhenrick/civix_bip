@@ -40,7 +40,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @var string
    */
-  static $_tableName = 'civicrm_bipdata';
+  static $_tablename = 'civicrm_bipdata';
   /**
    * static instance to hold the field values
    *
@@ -122,27 +122,27 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @var float
    */
-  public $BOROCODE;
+  public $borocode;
   /**
    *
    * @var int
    */
-  public $BLOCK;
+  public $block;
   /**
    *
    * @var int
    */
-  public $LOT;
+  public $lot;
   /**
    *
    * @var int
    */
-  public $COMMDIST;
+  public $commdist;
   /**
    *
    * @var string
    */
-  public $LUCATEGORY;
+  public $lucategory;
   /**
    *
    * @var datetime
@@ -177,72 +177,72 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @var
    */
-  public $Open_Violations;
+  public $open_violations;
   /**
    *
    * @var
    */
-  public $Open_A_Violations;
+  public $open_a_violations;
   /**
    *
    * @var
    */
-  public $Open_B_Violations;
+  public $open_b_violations;
   /**
    *
    * @var
    */
-  public $Open_C_Violations;
+  public $open_c_violations;
   /**
    *
    * @var
    */
-  public $PriorYear_Violations;
+  public $prior_year_violations;
   /**
    *
    * @var
    */
-  public $PriorYear_A_Violations;
+  public $prior_year_a_violations;
   /**
    *
    * @var
    */
-  public $PriorYear_B_Violations;
+  public $prior_year_b_violations;
   /**
    *
    * @var
    */
-  public $PriorYear_C_Violations;
+  public $prior_year_c_violations;
   /**
    *
    * @var
    */
-  public $Seven_A;
+  public $seven_a;
   /**
    *
    * @var
    */
-  public $AEP;
+  public $aep;
   /**
    *
    * @var
    */
-  public $PPI;
+  public $ppi;
   /**
    *
    * @var
    */
-  public $Underlying_Conditions;
+  public $underlying_conditions;
   /**
    *
    * @var
    */
-  public $NYC_421A_Exempt_Properties;
+  public $nyc_421a_exempt_properties;
   /**
    *
    * @var
    */
-  public $PriorYear_311_Comps;
+  public $prior_year_311_comps;
   /**
    *
    * @var
@@ -262,12 +262,12 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @var
    */
-  public $Water;
+  public $water;
   /**
    *
    * @var
    */
-  public $Umbrella;
+  public $umbrella;
   /**
    *
    * @var
@@ -287,292 +287,292 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @var
    */
-  public $Absolute;
+  public $absolute;
   /**
    *
    * @var
    */
-  public $Per_Unit;
+  public $per_unit;
   /**
    *
    * @var
    */
-  public $Current_BIP_Score;
+  public $current_bip_score;
   /**
    *
    * @var
    */
-  public $Score_2015April;
+  public $score_2015_april;
   /**
    *
    * @var
    */
-  public $Score_2015Jan;
+  public $score_2015_jan;
   /**
    *
    * @var
    */
-  public $Score_2014Oct;
+  public $score_2014_oct;
   /**
    *
    * @var
    */
-  public $Score_2014Jun;
+  public $score_2014_jun;
   /**
    *
    * @var
    */
-  public $Score_2014Feb;
+  public $score_2014_feb;
   /**
    *
    * @var
    */
-  public $Score_2013Nov;
+  public $score_2013_nov;
   /**
    *
    * @var
    */
-  public $Score_2013Aug;
+  public $score_2013_aug;
   /**
    *
    * @var
    */
-  public $Score_2013April;
+  public $score_2013_april;
   /**
    *
    * @var
    */
-  public $Score_2012Nov;
+  public $score_2012_nov;
   /**
    *
    * @var
    */
-  public $Score_2012June;
+  public $score_2012_june;
   /**
    *
    * @var
    */
-  public $Score_2012Jan;
+  public $score_2012_jan;
   /**
    *
    * @var
    */
-  public $Score_2010_2;
+  public $score_2010_2;
   /**
    *
    * @var
    */
-  public $Score_2010_1;
+  public $score_2010_1;
   /**
    *
    * @var
    */
-  public $Score_2009_2;
+  public $score_2009_2;
   /**
    *
    * @var
    */
-  public $Score_2009_1;
+  public $score_2009_1;
   /**
    *
    * @var
    */
-  public $Score_2008_2;
+  public $score_2008_2;
   /**
    *
    * @var
    */
-  public $Occurance;
+  public $occurance;
   /**
    *
    * @var
    */
-  public $Average;
+  public $average;
   /**
    *
    * @var
    */
-  public $CDFAvg;
+  public $cdf_avg;
   /**
    *
    * @var
    */
-  public $CorpName;
+  public $corp_name;
   /**
    *
    * @var
    */
-  public $CorpStreet;
+  public $corp_street;
   /**
    *
    * @var
    */
-  public $CorpApt;
+  public $corp_apt;
   /**
    *
    * @var
    */
-  public $CorpCity;
+  public $corp_city;
   /**
    *
    * @var
    */
-  public $CorpState;
+  public $corp_state;
   /**
    *
    * @var
    */
-  public $IndivFirstName;
+  public $indiv_first_name;
   /**
    *
    * @var
    */
-  public $IndivLastName;
+  public $indiv_last_name;
   /**
    *
    * @var
    */
-  public $IndivStreet;
+  public $indiv_street;
   /**
    *
    * @var
    */
-  public $IndivApt;
+  public $indiv_apt;
   /**
    *
    * @var
    */
-  public $IndivCity;
+  public $indiv_city;
   /**
    *
    * @var
    */
-  public $IndivSt;
+  public $indiv_st;
   /**
    *
    * @var
    */
-  public $HeadOffTitle;
+  public $head_off_title;
   /**
    *
    * @var
    */
-  public $HeadOffFirstName;
+  public $head_off_first_name;
   /**
    *
    * @var
    */
-  public $HeadOffLastName;
+  public $head_off_last_name;
   /**
    *
    * @var
    */
-  public $HeadOffStreet;
+  public $head_off_street;
   /**
    *
    * @var
    */
-  public $HeadOffCity;
+  public $head_off_city;
   /**
    *
    * @var
    */
-  public $HeadOffSt;
+  public $head_off_st;
   /**
    *
    * @var
    */
-  public $MngmtCorp;
+  public $mngmt_corp;
   /**
    *
    * @var
    */
-  public $MngmtFirstName;
+  public $mngmt_first_name;
   /**
    *
    * @var
    */
-  public $MngmtLastName;
+  public $mngmt_last_name;
   /**
    *
    * @var
    */
-  public $MngmtStreetNum;
+  public $mngmt_street_num;
   /**
    *
    * @var
    */
-  public $MngmtStreet;
+  public $mngmt_street;
   /**
    *
    * @var
    */
-  public $MngmtApt;
+  public $mngmt_apt;
   /**
    *
    * @var
    */
-  public $MngmtCity;
+  public $mngmt_city;
   /**
    *
    * @var
    */
-  public $MngmtSt;
+  public $mngmt_st;
   /**
    *
    * @var
    */
-  public $Violations_Current_As_Of;
+  public $violations_current_as_of;
   /**
    *
    * @var
    */
-  public $HeadOffApt;
+  public $head_off_apt;
   /**
    *
    * @var
    */
-  public $CorpStreetNum;
+  public $corp_street_num;
   /**
    *
    * @var
    */
-  public $HeadOffStreetNum;
+  public $head_off_street_num;
   /**
    *
    * @var
    */
-  public $ERPs;
+  public $erps;
   /**
    *
    * @var
    */
-  public $SoldLiensOpen;
+  public $sold_liens_open;
   /**
    *
    * @var
    */
-  public $Open_I_Violations;
+  public $open_i_violations;
   /**
    *
    * @var
    */
-  public $PriorYear_V_to_C_Ratio;
+  public $prior_year_v_to_c_ratio;
   /**
    *
    * @var
    */
-  public $IndivStreetNum;
+  public $indiv_street_num;
   /**
    *
    * @var
    */
-  public $HeadOffZip;
+  public $head_off_zip;
   /**
    *
    * @var
    */
-  public $IndivZip;
+  public $indiv_zip;
   /**
    *
    * @var
@@ -582,12 +582,12 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @var
    */
-  public $CorpZip;
+  public $corp_zip;
   /**
    *
    * @var
    */
-  public $MngmtZip;
+  public $mngmt_zip;
   /**
    *
    * @var
@@ -684,150 +684,150 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
           'dataPattern' => '',
           'export' => true,
         ) ,
-        'BOROCODE' => array(
-          'name' => 'BOROCODE',
+        'borocode' => array(
+          'name' => 'borocode',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('BOROCODE') ,
+          'title' => ts('borocode') ,
           'import' => true,
-          'where' => 'civicrm_bipdata.BOROCODE',
+          'where' => 'civicrm_bipdata.borocode',
           'headerPattern' => '',
           'dataPattern' => '',
           'export' => true,
         ) ,
-        'BLOCK' => array(
-          'name' => 'BLOCK',
+        'block' => array(
+          'name' => 'block',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('BLOCK') ,
+          'title' => ts('block') ,
           'import' => true,
-          'where' => 'civicrm_bipdata.BLOCK',
+          'where' => 'civicrm_bipdata.block',
           'headerPattern' => '',
           'dataPattern' => '',
           'export' => true,
         ) ,
-        'LOT' => array(
-          'name' => 'LOT',
+        'lot' => array(
+          'name' => 'lot',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('LOT') ,
+          'title' => ts('lot') ,
           'import' => true,
-          'where' => 'civicrm_bipdata.LOT',
+          'where' => 'civicrm_bipdata.lot',
           'headerPattern' => '',
           'dataPattern' => '',
           'export' => true,
         ) ,
-        'COMMDIST' => array(
-          'name' => 'COMMDIST',
+        'commdist' => array(
+          'name' => 'commdist',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('COMMDIST') ,
+          'title' => ts('commdist') ,
           'import' => true,
-          'where' => 'civicrm_bipdata.COMMDIST',
+          'where' => 'civicrm_bipdata.commdist',
           'headerPattern' => '',
           'dataPattern' => '',
           'export' => true,
         ) ,
-        'LUCATEGORY' => array(
-          'name' => 'LUCATEGORY',
+        'lucategory' => array(
+          'name' => 'lucategory',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('LUCATEGORY') ,
+          'title' => ts('lucategory') ,
         ) ,
         'year_built' => array(
           'name' => 'year_built',
           'type' => CRM_Utils_Type::T_DATE,
-          'title' => ts('Year Built') ,
+          'title' => ts('year_built') ,
         ) ,
         'yr_1st_alt' => array(
           'name' => 'yr_1st_alt',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Yr 1st Alt') ,
+          'title' => ts('yr_1st_alt') ,
         ) ,
         'yr_2nd_alt' => array(
           'name' => 'yr_2nd_alt',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Yr 2nd alt') ,
+          'title' => ts('yr_2nd_alt') ,
         ) ,
         'bldg_class' => array(
           'name' => 'bldg_class',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('Building Class') ,
+          'title' => ts('bldg_class') ,
         ) ,
         'zoning_gen' => array(
           'name' => 'zoning_gen',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('Zoning Gen') ,
+          'title' => ts('zoning_gen') ,
         ) ,
         'zoning' => array(
           'name' => 'zoning',
           'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('zoning') ,
         ) ,
-        'Open_Violations' => array(
-          'name' => 'Open_Violations',
+        'open_violations' => array(
+          'name' => 'open_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Open Violations') ,
+          'title' => ts('open_violations') ,
         ) ,
-        'Open_A_Violations' => array(
-          'name' => 'Open_A_Violations',
+        'open_a_violations' => array(
+          'name' => 'open_a_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Open A Violations') ,
+          'title' => ts('open_a_violations') ,
         ) ,
-        'Open_B_Violations' => array(
-          'name' => 'Open_B_Violations',
+        'open_b_violations' => array(
+          'name' => 'open_b_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Open_B_Violations') ,
+          'title' => ts('open_b_violations') ,
         ) ,
-        'Open_C_Violations' => array(
-          'name' => 'Open_C_Violations',
+        'open_c_violations' => array(
+          'name' => 'open_c_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Open_C_Violations') ,
+          'title' => ts('open_c_violations') ,
         ) ,
-        'PriorYear_Violations' => array(
-          'name' => 'PriorYear_Violations',
+        'prior_year_violations' => array(
+          'name' => 'prior_year_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('PriorYear_Violations') ,
+          'title' => ts('prior_year_violations') ,
         ) ,
-        'PriorYear_A_Violations' => array(
-          'name' => 'PriorYear_A_Violations',
+        'prior_year_a_violations' => array(
+          'name' => 'prior_year_a_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('PriorYear_A_Violations') ,
+          'title' => ts('prior_year_a_violations') ,
         ) ,
-        'PriorYear_B_Violations' => array(
-          'name' => 'PriorYear_B_Violations',
+        'prior_year_b_violations' => array(
+          'name' => 'prior_year_b_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('PriorYear_B_Violations') ,
+          'title' => ts('prior_year_b_violations') ,
         ) ,
-        'PriorYear_C_Violations' => array(
-          'name' => 'PriorYear_C_Violations',
+        'prior_year_c_violations' => array(
+          'name' => 'prior_year_c_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('PriorYear_C_Violations') ,
+          'title' => ts('prior_year_c_violations') ,
         ) ,
-        'Seven_A' => array(
-          'name' => 'Seven_A',
+        'seven_a' => array(
+          'name' => 'seven_a',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Seven_A') ,
+          'title' => ts('seven_a') ,
         ) ,
-        'AEP' => array(
-          'name' => 'AEP',
+        'aep' => array(
+          'name' => 'aep',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('AEP') ,
+          'title' => ts('aep') ,
         ) ,
-        'PPI' => array(
-          'name' => 'PPI',
+        'ppi' => array(
+          'name' => 'ppi',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('PPI') ,
+          'title' => ts('ppi') ,
         ) ,
-        'Underlying_Conditions' => array(
-          'name' => 'Underlying_Conditions',
+        'underlying_conditions' => array(
+          'name' => 'underlying_conditions',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Underlying_Conditions') ,
+          'title' => ts('underlying_conditions') ,
         ) ,
-        'NYC_421A_Exempt_Properties' => array(
-          'name' => 'NYC_421A_Exempt_Properties',
+        'nyc_421a_exempt_properties' => array(
+          'name' => 'nyc_421a_exempt_properties',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('NYC 421A Exempt Properties') ,
+          'title' => ts('nyc_421a_exempt_properties') ,
         ) ,
-        'PriorYear_311_Comps' => array(
-          'name' => 'PriorYear_311_Comps',
+        'prior_year_311_comps' => array(
+          'name' => 'prior_year_311_comps',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('PriorYear_311 Comps') ,
+          'title' => ts('prior_year_311_comps') ,
         ) ,
         'dob_violation' => array(
           'name' => 'dob_violation',
@@ -844,15 +844,15 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
           'type' => CRM_Utils_Type::T_FLOAT,
           'title' => ts('city_lien') ,
         ) ,
-        'Water' => array(
-          'name' => 'Water',
+        'water' => array(
+          'name' => 'water',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Water') ,
+          'title' => ts('water') ,
         ) ,
-        'Umbrella' => array(
-          'name' => 'Umbrella',
+        'umbrella' => array(
+          'name' => 'umbrella',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Umbrella') ,
+          'title' => ts('umbrella') ,
         ) ,
         'party_name' => array(
           'name' => 'party_name',
@@ -869,310 +869,310 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
           'type' => CRM_Utils_Type::T_INT,
           'title' => ts('recorded_filed') ,
         ) ,
-        'Absolute' => array(
-          'name' => 'Absolute',
+        'absolute' => array(
+          'name' => 'absolute',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Absolute') ,
+          'title' => ts('absolute') ,
         ) ,
-        'Per_Unit' => array(
-          'name' => 'Per_Unit',
+        'per_unit' => array(
+          'name' => 'per_unit',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Per Unit') ,
+          'title' => ts('per_unit') ,
         ) ,
-        'Current_BIP_Score' => array(
-          'name' => 'Current_BIP_Score',
+        'current_bip_score' => array(
+          'name' => 'current_bip_score',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Current BIP_Score') ,
+          'title' => ts('current_bip_score') ,
         ) ,
-        'Score_2015April' => array(
-          'name' => 'Score_2015April',
+        'score_2015_april' => array(
+          'name' => 'score_2015_april',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2015April') ,
+          'title' => ts('score_2015_april') ,
         ) ,
-        'Score_2015Jan' => array(
-          'name' => 'Score_2015Jan',
+        'score_2015_jan' => array(
+          'name' => 'score_2015_jan',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2015Jan') ,
+          'title' => ts('score_2015_jan') ,
         ) ,
-        'Score_2014Oct' => array(
-          'name' => 'Score_2014Oct',
+        'score_2014_oct' => array(
+          'name' => 'score_2014_oct',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2014Oct') ,
+          'title' => ts('score_2014_oct') ,
         ) ,
-        'Score_2014Jun' => array(
-          'name' => 'Score_2014Jun',
+        'score_2014_jun' => array(
+          'name' => 'score_2014_jun',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2014Jun') ,
+          'title' => ts('score_2014_jun') ,
         ) ,
-        'Score_2014Feb' => array(
-          'name' => 'Score_2014Feb',
+        'score_2014_feb' => array(
+          'name' => 'score_2014_feb',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2014Feb') ,
+          'title' => ts('score_2014_feb') ,
         ) ,
-        'Score_2013Nov' => array(
-          'name' => 'Score_2013Nov',
+        'score_2013_nov' => array(
+          'name' => 'score_2013_nov',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2013Nov') ,
+          'title' => ts('score_2013_nov') ,
         ) ,
-        'Score_2013Aug' => array(
-          'name' => 'Score_2013Aug',
+        'score_2013_aug' => array(
+          'name' => 'score_2013_aug',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2013Aug') ,
+          'title' => ts('score_2013_aug') ,
         ) ,
-        'Score_2013April' => array(
-          'name' => 'Score_2013April',
+        'score_2013_april' => array(
+          'name' => 'score_2013_april',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2013April') ,
+          'title' => ts('score_2013_april') ,
         ) ,
-        'Score_2012Nov' => array(
-          'name' => 'Score_2012Nov',
+        'score_2012_nov' => array(
+          'name' => 'score_2012_nov',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2012Nov') ,
+          'title' => ts('score_2012_nov') ,
         ) ,
-        'Score_2012June' => array(
-          'name' => 'Score_2012June',
+        'score_2012_june' => array(
+          'name' => 'score_2012_june',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2012June') ,
+          'title' => ts('score_2012_june') ,
         ) ,
-        'Score_2012Jan' => array(
-          'name' => 'Score_2012Jan',
+        'score_2012_jan' => array(
+          'name' => 'score_2012_jan',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2012Jan') ,
+          'title' => ts('score_2012_jan') ,
         ) ,
-        'Score_2010_2' => array(
-          'name' => 'Score_2010_2',
+        'score_2010_2' => array(
+          'name' => 'score_2010_2',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2010-2') ,
+          'title' => ts('score_2010_2') ,
         ) ,
-        'Score_2010_1' => array(
-          'name' => 'Score_2010_1',
+        'score_2010_1' => array(
+          'name' => 'score_2010_1',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2010-1') ,
+          'title' => ts('score_2010_1') ,
         ) ,
-        'Score_2009_2' => array(
-          'name' => 'Score_2009_2',
+        'score_2009_2' => array(
+          'name' => 'score_2009_2',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2009-2') ,
+          'title' => ts('score_2009_2') ,
         ) ,
-        'Score_2009_1' => array(
-          'name' => 'Score_2009_1',
+        'score_2009_1' => array(
+          'name' => 'score_2009_1',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2009-1') ,
+          'title' => ts('score_2009_1') ,
         ) ,
-        'Score_2008_2' => array(
-          'name' => 'Score_2008_2',
+        'score_2008_2' => array(
+          'name' => 'score_2008_2',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Score_2008-2') ,
+          'title' => ts('score_2008_2') ,
         ) ,
-        'Occurance' => array(
-          'name' => 'Occurance',
+        'occurance' => array(
+          'name' => 'occurance',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Occurance') ,
+          'title' => ts('occurance') ,
         ) ,
-        'Average' => array(
-          'name' => 'Average',
+        'average' => array(
+          'name' => 'average',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('Average') ,
+          'title' => ts('average') ,
         ) ,
-        'CDFAvg' => array(
-          'name' => 'CDFAvg',
+        'cdf_avg' => array(
+          'name' => 'cdf_avg',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('CDFAvg') ,
+          'title' => ts('cdf_avg') ,
         ) ,
-        'CorpName' => array(
-          'name' => 'CorpName',
+        'corp_name' => array(
+          'name' => 'corp_name',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('CorpName') ,
+          'title' => ts('corp_name') ,
         ) ,
-        'CorpStreet' => array(
-          'name' => 'CorpStreet',
+        'corp_street' => array(
+          'name' => 'corp_street',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('CorpStreet') ,
+          'title' => ts('corp_street') ,
         ) ,
-        'CorpApt' => array(
-          'name' => 'CorpApt',
+        'corp_apt' => array(
+          'name' => 'corp_apt',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('CorpApt') ,
+          'title' => ts('corp_apt') ,
         ) ,
-        'CorpCity' => array(
-          'name' => 'CorpCity',
+        'corp_city' => array(
+          'name' => 'corp_city',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('CorpCity') ,
+          'title' => ts('corp_city') ,
         ) ,
-        'CorpState' => array(
-          'name' => 'CorpState',
+        'corp_state' => array(
+          'name' => 'corp_state',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('CorpState') ,
+          'title' => ts('corp_state') ,
         ) ,
-        'IndivFirstName' => array(
-          'name' => 'IndivFirstName',
+        'indiv_first_name' => array(
+          'name' => 'indiv_first_name',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('IndivFirstName') ,
+          'title' => ts('indiv_first_name') ,
         ) ,
-        'IndivLastName' => array(
-          'name' => 'IndivLastName',
+        'indiv_last_name' => array(
+          'name' => 'indiv_last_name',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('IndivLastName') ,
+          'title' => ts('indiv_last_name') ,
         ) ,
-        'IndivStreet' => array(
-          'name' => 'IndivStreet',
+        'indiv_street' => array(
+          'name' => 'indiv_street',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('IndivStreet') ,
+          'title' => ts('indiv_street') ,
         ) ,
-        'IndivApt' => array(
-          'name' => 'IndivApt',
+        'indiv_apt' => array(
+          'name' => 'indiv_apt',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('IndivApt') ,
+          'title' => ts('indiv_apt') ,
         ) ,
-        'IndivCity' => array(
-          'name' => 'IndivCity',
+        'indiv_city' => array(
+          'name' => 'indiv_city',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('IndivCity') ,
+          'title' => ts('indiv_city') ,
         ) ,
-        'IndivSt' => array(
-          'name' => 'IndivSt',
+        'indiv_st' => array(
+          'name' => 'indiv_st',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('IndivSt') ,
+          'title' => ts('indiv_st') ,
         ) ,
-        'HeadOffTitle' => array(
-          'name' => 'HeadOffTitle',
+        'head_off_title' => array(
+          'name' => 'head_off_title',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('HeadOffTitle') ,
+          'title' => ts('head_off_title') ,
         ) ,
-        'HeadOffFirstName' => array(
-          'name' => 'HeadOffFirstName',
+        'head_off_first_name' => array(
+          'name' => 'head_off_first_name',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('HeadOffFirstName') ,
+          'title' => ts('head_off_first_name') ,
         ) ,
-        'HeadOffLastName' => array(
-          'name' => 'HeadOffLastName',
+        'head_off_last_name' => array(
+          'name' => 'head_off_last_name',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('HeadOffLastName') ,
+          'title' => ts('head_off_last_name') ,
         ) ,
-        'HeadOffStreet' => array(
-          'name' => 'HeadOffStreet',
+        'head_off_street' => array(
+          'name' => 'head_off_street',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('HeadOffStreet') ,
+          'title' => ts('head_off_street') ,
         ) ,
-        'HeadOffCity' => array(
-          'name' => 'HeadOffCity',
+        'head_off_city' => array(
+          'name' => 'head_off_city',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('HeadOffCity') ,
+          'title' => ts('head_off_city') ,
         ) ,
-        'HeadOffSt' => array(
-          'name' => 'HeadOffSt',
+        'head_off_st' => array(
+          'name' => 'head_off_st',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('HeadOffSt') ,
+          'title' => ts('head_off_st') ,
         ) ,
-        'MngmtCorp' => array(
-          'name' => 'MngmtCorp',
+        'mngmt_corp' => array(
+          'name' => 'mngmt_corp',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('MngmtCorp') ,
+          'title' => ts('mngmt_corp') ,
         ) ,
-        'MngmtFirstName' => array(
-          'name' => 'MngmtFirstName',
+        'mngmt_first_name' => array(
+          'name' => 'mngmt_first_name',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('MngmtFirstName') ,
+          'title' => ts('mngmt_first_name') ,
         ) ,
-        'MngmtLastName' => array(
-          'name' => 'MngmtLastName',
+        'mngmt_last_name' => array(
+          'name' => 'mngmt_last_name',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('MngmtLastName') ,
+          'title' => ts('mngmt_last_name') ,
         ) ,
-        'MngmtStreetNum' => array(
-          'name' => 'MngmtStreetNum',
+        'mngmt_street_num' => array(
+          'name' => 'mngmt_street_num',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('MngmtStreetNum') ,
+          'title' => ts('mngmt_street_num') ,
         ) ,
-        'MngmtStreet' => array(
-          'name' => 'MngmtStreet',
+        'mngmt_street' => array(
+          'name' => 'mngmt_street',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('MngmtStreet') ,
+          'title' => ts('mngmt_street') ,
         ) ,
-        'MngmtApt' => array(
-          'name' => 'MngmtApt',
+        'mngmt_apt' => array(
+          'name' => 'mngmt_apt',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('MngmtApt') ,
+          'title' => ts('mngmt_apt') ,
         ) ,
-        'MngmtCity' => array(
-          'name' => 'MngmtCity',
+        'mngmt_city' => array(
+          'name' => 'mngmt_city',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('MngmtCity') ,
+          'title' => ts('mngmt_city') ,
         ) ,
-        'MngmtSt' => array(
-          'name' => 'MngmtSt',
+        'mngmt_st' => array(
+          'name' => 'mngmt_st',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('MngmtSt') ,
+          'title' => ts('mngmt_st') ,
         ) ,
-        'Violations_Current_As_Of' => array(
-          'name' => 'Violations_Current_As_Of',
+        'violations_current_as_of' => array(
+          'name' => 'violations_current_as_of',
           'type' => CRM_Utils_Type::T_DATE + CRM_Utils_Type::T_TIME,
-          'title' => ts('Violations Current As Of') ,
+          'title' => ts('violations_current_as_of') ,
         ) ,
-        'HeadOffApt' => array(
-          'name' => 'HeadOffApt',
+        'head_off_apt' => array(
+          'name' => 'head_off_apt',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('HeadOffApt') ,
+          'title' => ts('head_off_apt') ,
         ) ,
-        'CorpStreetNum' => array(
-          'name' => 'CorpStreetNum',
+        'corp_street_num' => array(
+          'name' => 'corp_street_num',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('CorpStreetNum') ,
+          'title' => ts('corp_street_num') ,
         ) ,
-        'HeadOffStreetNum' => array(
-          'name' => 'HeadOffStreetNum',
+        'head_off_street_num' => array(
+          'name' => 'head_off_street_num',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('HeadOffStreetNum') ,
+          'title' => ts('head_off_street_num') ,
         ) ,
-        'ERPs' => array(
-          'name' => 'ERPs',
+        'erps' => array(
+          'name' => 'erps',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('ERPs') ,
+          'title' => ts('erps') ,
         ) ,
-        'SoldLiensOpen' => array(
-          'name' => 'SoldLiensOpen',
+        'sold_liens_open' => array(
+          'name' => 'sold_liens_open',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('SoldLiensOpen') ,
+          'title' => ts('sold_liens_open') ,
         ) ,
-        'Open_I_Violations' => array(
-          'name' => 'Open_I_Violations',
+        'open_i_violations' => array(
+          'name' => 'open_i_violations',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('Open_I_Violations') ,
+          'title' => ts('open_i_violations') ,
         ) ,
-        'PriorYear_V_to_C_Ratio' => array(
-          'name' => 'PriorYear_V_to_C_Ratio',
+        'prior_year_v_to_c_ratio' => array(
+          'name' => 'prior_year_v_to_c_ratio',
           'type' => CRM_Utils_Type::T_FLOAT,
-          'title' => ts('PriorYear_V_to_C_Ratio') ,
+          'title' => ts('prior_year_v_to_c_ratio') ,
         ) ,
-        'IndivStreetNum' => array(
-          'name' => 'IndivStreetNum',
+        'indiv_street_num' => array(
+          'name' => 'indiv_street_num',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('IndivStreetNum') ,
+          'title' => ts('indiv_street_num') ,
         ) ,
-        'HeadOffZip' => array(
-          'name' => 'HeadOffZip',
+        'head_off_zip' => array(
+          'name' => 'head_off_zip',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('HeadOffZip') ,
+          'title' => ts('head_off_zip') ,
         ) ,
-        'IndivZip' => array(
-          'name' => 'IndivZip',
+        'indiv_zip' => array(
+          'name' => 'indiv_zip',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('IndivZip') ,
+          'title' => ts('indiv_zip') ,
         ) ,
         'doc_amount' => array(
           'name' => 'doc_amount',
           'type' => CRM_Utils_Type::T_INT,
           'title' => ts('doc_amount') ,
         ) ,
-        'CorpZip' => array(
-          'name' => 'CorpZip',
+        'corp_zip' => array(
+          'name' => 'corp_zip',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('CorpZip') ,
+          'title' => ts('corp_zip') ,
         ) ,
-        'MngmtZip' => array(
-          'name' => 'MngmtZip',
+        'mngmt_zip' => array(
+          'name' => 'mngmt_zip',
           'type' => CRM_Utils_Type::T_INT,
-          'title' => ts('MngmtZip') ,
+          'title' => ts('mngmt_zip') ,
         ) ,
         'zip_code' => array(
           'name' => 'zip_code',
@@ -1200,100 +1200,100 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         'tot_unit' => 'tot_unit',
         'num_floors' => 'num_floors',
         'census_tract' => 'census_tract',
-        'BOROCODE' => 'BOROCODE',
-        'BLOCK' => 'BLOCK',
-        'LOT' => 'LOT',
-        'COMMDIST' => 'COMMDIST',
-        'LUCATEGORY' => 'LUCATEGORY',
+        'borocode' => 'borocode',
+        'block' => 'block',
+        'lot' => 'lot',
+        'commdist' => 'commdist',
+        'lucategory' => 'lucategory',
         'year_built' => 'year_built',
         'yr_1st_alt' => 'yr_1st_alt',
         'yr_2nd_alt' => 'yr_2nd_alt',
         'bldg_class' => 'bldg_class',
         'zoning_gen' => 'zoning_gen',
         'zoning' => 'zoning',
-        'Open_Violations' => 'Open_Violations',
-        'Open_A_Violations' => 'Open_A_Violations',
-        'Open_B_Violations' => 'Open_B_Violations',
-        'Open_C_Violations' => 'Open_C_Violations',
-        'PriorYear_Violations' => 'PriorYear_Violations',
-        'PriorYear_A_Violations' => 'PriorYear_A_Violations',
-        'PriorYear_B_Violations' => 'PriorYear_B_Violations',
-        'PriorYear_C_Violations' => 'PriorYear_C_Violations',
-        'Seven_A' => 'Seven_A',
-        'AEP' => 'AEP',
-        'PPI' => 'PPI',
-        'Underlying_Conditions' => 'Underlying_Conditions',
-        'NYC_421A_Exempt_Properties' => 'NYC_421A_Exempt_Properties',
-        'PriorYear_311_Comps' => 'PriorYear_311_Comps',
+        'open_violations' => 'open_violations',
+        'open_a_violations' => 'open_a_violations',
+        'open_b_violations' => 'open_b_violations',
+        'open_c_violations' => 'open_c_violations',
+        'prior_year_violations' => 'prior_year_violations',
+        'prior_year_a_violations' => 'prior_year_a_violations',
+        'prior_year_b_violations' => 'prior_year_b_violations',
+        'prior_year_c_violations' => 'prior_year_c_violations',
+        'seven_a' => 'seven_a',
+        'aep' => 'aep',
+        'ppi' => 'ppi',
+        'underlying_conditions' => 'underlying_conditions',
+        'nyc_421a_exempt_properties' => 'nyc_421a_exempt_properties',
+        'prior_year_311_comps' => 'prior_year_311_comps',
         'dob_violation' => 'dob_violation',
         'ecb_violation' => 'ecb_violation',
         'city_lien' => 'city_lien',
-        'Water' => 'Water',
-        'Umbrella' => 'Umbrella',
+        'water' => 'water',
+        'umbrella' => 'umbrella',
         'party_name' => 'party_name',
         'document_type' => 'document_type',
         'recorded_filed' => 'recorded_filed',
-        'Absolute' => 'Absolute',
-        'Per_Unit' => 'Per_Unit',
-        'Current_BIP_Score' => 'Current_BIP_Score',
-        'Score_2015April' => 'Score_2015April',
-        'Score_2015Jan' => 'Score_2015Jan',
-        'Score_2014Oct' => 'Score_2014Oct',
-        'Score_2014Jun' => 'Score_2014Jun',
-        'Score_2014Feb' => 'Score_2014Feb',
-        'Score_2013Nov' => 'Score_2013Nov',
-        'Score_2013Aug' => 'Score_2013Aug',
-        'Score_2013April' => 'Score_2013April',
-        'Score_2012Nov' => 'Score_2012Nov',
-        'Score_2012June' => 'Score_2012June',
-        'Score_2012Jan' => 'Score_2012Jan',
-        'Score_2010_2' => 'Score_2010_2',
-        'Score_2010_1' => 'Score_2010_1',
-        'Score_2009_2' => 'Score_2009_2',
-        'Score_2009_1' => 'Score_2009_1',
-        'Score_2008_2' => 'Score_2008_2',
-        'Occurance' => 'Occurance',
-        'Average' => 'Average',
-        'CDFAvg' => 'CDFAvg',
-        'CorpName' => 'CorpName',
-        'CorpStreet' => 'CorpStreet',
-        'CorpApt' => 'CorpApt',
-        'CorpCity' => 'CorpCity',
-        'CorpState' => 'CorpState',
-        'IndivFirstName' => 'IndivFirstName',
-        'IndivLastName' => 'IndivLastName',
-        'IndivStreet' => 'IndivStreet',
-        'IndivApt' => 'IndivApt',
-        'IndivCity' => 'IndivCity',
-        'IndivSt' => 'IndivSt',
-        'HeadOffTitle' => 'HeadOffTitle',
-        'HeadOffFirstName' => 'HeadOffFirstName',
-        'HeadOffLastName' => 'HeadOffLastName',
-        'HeadOffStreet' => 'HeadOffStreet',
-        'HeadOffCity' => 'HeadOffCity',
-        'HeadOffSt' => 'HeadOffSt',
-        'MngmtCorp' => 'MngmtCorp',
-        'MngmtFirstName' => 'MngmtFirstName',
-        'MngmtLastName' => 'MngmtLastName',
-        'MngmtStreetNum' => 'MngmtStreetNum',
-        'MngmtStreet' => 'MngmtStreet',
-        'MngmtApt' => 'MngmtApt',
-        'MngmtCity' => 'MngmtCity',
-        'MngmtSt' => 'MngmtSt',
-        'Violations_Current_As_Of' => 'Violations_Current_As_Of',
-        'HeadOffApt' => 'HeadOffApt',
-        'CorpStreetNum' => 'CorpStreetNum',
-        'HeadOffStreetNum' => 'HeadOffStreetNum',
-        'ERPs' => 'ERPs',
-        'SoldLiensOpen' => 'SoldLiensOpen',
-        'Open_I_Violations' => 'Open_I_Violations',
-        'PriorYear_V_to_C_Ratio' => 'PriorYear_V_to_C_Ratio',
-        'IndivStreetNum' => 'IndivStreetNum',
-        'HeadOffZip' => 'HeadOffZip',
-        'IndivZip' => 'IndivZip',
+        'absolute' => 'absolute',
+        'per_unit' => 'per_unit',
+        'current_bip_score' => 'current_bip_score',
+        'score_2015_april' => 'score_2015_april',
+        'score_2015_jan' => 'score_2015_jan',
+        'score_2014_oct' => 'score_2014_oct',
+        'score_2014_jun' => 'score_2014_jun',
+        'score_2014_feb' => 'score_2014_feb',
+        'score_2013_nov' => 'score_2013_nov',
+        'score_2013_aug' => 'score_2013_aug',
+        'score_2013_april' => 'score_2013_april',
+        'score_2012_nov' => 'score_2012_nov',
+        'score_2012_june' => 'score_2012_june',
+        'score_2012_jan' => 'score_2012_jan',
+        'score_2010_2' => 'score_2010_2',
+        'score_2010_1' => 'score_2010_1',
+        'score_2009_2' => 'score_2009_2',
+        'score_2009_1' => 'score_2009_1',
+        'score_2008_2' => 'score_2008_2',
+        'occurance' => 'occurance',
+        'average' => 'average',
+        'cdf_avg' => 'cdf_avg',
+        'corp_name' => 'corp_name',
+        'corp_street' => 'corp_street',
+        'corp_apt' => 'corp_apt',
+        'corp_city' => 'corp_city',
+        'corp_state' => 'corp_state',
+        'indiv_first_name' => 'indiv_first_name',
+        'indiv_last_name' => 'indiv_last_name',
+        'indiv_street' => 'indiv_street',
+        'indiv_apt' => 'indiv_apt',
+        'indiv_city' => 'indiv_city',
+        'indiv_st' => 'indiv_st',
+        'head_off_title' => 'head_off_title',
+        'head_off_first_name' => 'head_off_first_name',
+        'head_off_last_name' => 'head_off_last_name',
+        'head_off_street' => 'head_off_street',
+        'head_off_city' => 'head_off_city',
+        'head_off_st' => 'head_off_st',
+        'mngmt_corp_' => 'mngmt_corp_',
+        'mngmt_first_name' => 'mngmt_first_name',
+        'mngmt_last_name' => 'mngmt_last_name',
+        'mngmt_street_num' => 'mngmt_street_num',
+        'mngmt_street' => 'mngmt_street',
+        'mngmt_apt' => 'mngmt_apt',
+        'mngmt_city' => 'mngmt_city',
+        'mngmt_st' => 'mngmt_st',
+        'violations_current_as_of' => 'violations_current_as_of',
+        'head_off_apt' => 'head_off_apt',
+        'corp_street_num' => 'corp_street_num',
+        'head_off_street_num' => 'head_off_street_num',
+        'erps' => 'erps',
+        'sold_liens_open' => 'sold_liens_open',
+        'open_i_violations' => 'open_i_violations',
+        'prior_year_v_to_c_ratio' => 'prior_year_v_to_c_ratio',
+        'indiv_street_num' => 'indiv_street_num',
+        'head_off_zip' => 'head_off_zip',
+        'indiv_zip' => 'indiv_zip',
         'doc_amount' => 'doc_amount',
-        'CorpZip' => 'CorpZip',
-        'MngmtZip' => 'MngmtZip',
+        'corp_zip' => 'corp_zip',
+        'mngmt_zip' => 'mngmt_zip',
         'zip_code' => 'zip_code',
       );
     }
@@ -1304,9 +1304,9 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @return string
    */
-  static function getTableName()
+  static function getTablename()
   {
-    return self::$_tableName;
+    return self::$_tablename;
   }
   /**
    * Returns if this table needs to be logged
