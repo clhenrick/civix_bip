@@ -851,7 +851,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'umbrella' => array(
           'name' => 'umbrella',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('umbrella') ,
         ) ,
         'party_name' => array(
@@ -866,7 +866,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'recorded_filed' => array(
           'name' => 'recorded_filed',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_DATE + CRM_Utils_Type::T_TIME,
           'title' => ts('recorded_filed') ,
         ) ,
         'absolute' => array(
