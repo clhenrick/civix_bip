@@ -1151,12 +1151,12 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'head_off_zip' => array(
           'name' => 'head_off_zip',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('head_off_zip') ,
         ) ,
         'indiv_zip' => array(
           'name' => 'indiv_zip',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('indiv_zip') ,
         ) ,
         'doc_amount' => array(
@@ -1166,17 +1166,17 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'corp_zip' => array(
           'name' => 'corp_zip',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('corp_zip') ,
         ) ,
         'mngmt_zip' => array(
           'name' => 'mngmt_zip',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('mngmt_zip') ,
         ) ,
         'zip_code' => array(
           'name' => 'zip_code',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('zip_code') ,
         ) ,
       );
