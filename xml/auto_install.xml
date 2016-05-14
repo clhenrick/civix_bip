@@ -6,15 +6,15 @@
       <name>Bip_Data</name>
       <title>Bip Data</title>
       <extends>Address</extends>
-      <style>Tab</style>
+      <style>Inline</style>
       <collapse_display>0</collapse_display>
       <help_pre></help_pre>
       <help_post></help_post>
-      <weight>13</weight>
+      <weight>1</weight>
       <is_active>1</is_active>
       <table_name>civicrm_value_bip_data_19</table_name>
       <is_multiple>0</is_multiple>
-      <collapse_adv_display>1</collapse_adv_display>
+      <collapse_adv_display>0</collapse_adv_display>
       <created_date>2016-01-08 21:07:09</created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
@@ -26,7 +26,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>6</weight>
       <is_active>1</is_active>
@@ -44,7 +44,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>6</weight>
       <is_active>1</is_active>
@@ -62,7 +62,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>11</weight>
       <is_active>1</is_active>
@@ -80,7 +80,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>16</weight>
       <is_active>1</is_active>
@@ -98,7 +98,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>21</weight>
       <is_active>1</is_active>
@@ -170,7 +170,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>41</weight>
       <is_active>1</is_active>
@@ -279,7 +279,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>70</weight>
       <is_active>1</is_active>
@@ -297,7 +297,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>74</weight>
       <is_active>1</is_active>
@@ -315,7 +315,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>79</weight>
       <is_active>1</is_active>
@@ -333,7 +333,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>84</weight>
       <is_active>1</is_active>
@@ -351,7 +351,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>88</weight>
       <is_active>1</is_active>
@@ -369,7 +369,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>92</weight>
       <is_active>1</is_active>
@@ -387,7 +387,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>96</weight>
       <is_active>1</is_active>
@@ -405,7 +405,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>100</weight>
       <is_active>1</is_active>
@@ -423,7 +423,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>104</weight>
       <is_active>1</is_active>
@@ -441,7 +441,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>108</weight>
       <is_active>1</is_active>
@@ -459,7 +459,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>112</weight>
       <is_active>1</is_active>
@@ -477,7 +477,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>116</weight>
       <is_active>1</is_active>
@@ -495,7 +495,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>120</weight>
       <is_active>1</is_active>
@@ -513,7 +513,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>124</weight>
       <is_active>1</is_active>
@@ -531,7 +531,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>128</weight>
       <is_active>1</is_active>
@@ -549,7 +549,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>132</weight>
       <is_active>1</is_active>
@@ -567,7 +567,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>139</weight>
       <is_active>1</is_active>
@@ -585,7 +585,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>144</weight>
       <is_active>1</is_active>
@@ -603,7 +603,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>146</weight>
       <is_active>1</is_active>
@@ -621,7 +621,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>151</weight>
       <is_active>1</is_active>
@@ -657,7 +657,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>168</weight>
       <is_active>1</is_active>
@@ -675,7 +675,7 @@
       <data_type>String</data_type>
       <html_type>Multi-Select</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>175</weight>
       <is_active>1</is_active>
@@ -714,7 +714,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>196</weight>
       <is_active>1</is_active>
@@ -732,7 +732,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>204</weight>
       <is_active>1</is_active>
@@ -768,7 +768,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>220</weight>
       <is_active>1</is_active>
@@ -786,7 +786,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>228</weight>
       <is_active>1</is_active>
@@ -804,7 +804,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>236</weight>
       <is_active>1</is_active>
@@ -822,7 +822,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>244</weight>
       <is_active>1</is_active>
@@ -840,7 +840,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>252</weight>
       <is_active>1</is_active>
@@ -858,7 +858,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>254</weight>
       <is_active>1</is_active>
@@ -876,7 +876,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>255</weight>
       <is_active>1</is_active>
@@ -894,7 +894,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>262</weight>
       <is_active>1</is_active>
@@ -912,7 +912,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>270</weight>
       <is_active>1</is_active>
@@ -930,7 +930,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>278</weight>
       <is_active>1</is_active>
@@ -948,7 +948,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>280</weight>
       <is_active>1</is_active>
@@ -966,7 +966,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>287</weight>
       <is_active>1</is_active>
@@ -984,7 +984,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>295</weight>
       <is_active>1</is_active>
@@ -1002,7 +1002,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>296</weight>
       <is_active>1</is_active>
@@ -1020,7 +1020,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>304</weight>
       <is_active>1</is_active>
@@ -1038,7 +1038,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>306</weight>
       <is_active>1</is_active>
@@ -1056,7 +1056,7 @@
       <data_type>Int</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>313</weight>
       <is_active>1</is_active>
@@ -1074,7 +1074,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>320</weight>
       <is_active>1</is_active>
@@ -1092,7 +1092,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>327</weight>
       <is_active>1</is_active>
@@ -1110,7 +1110,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>334</weight>
       <is_active>1</is_active>
@@ -1128,7 +1128,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>342</weight>
       <is_active>1</is_active>
@@ -1146,7 +1146,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>350</weight>
       <is_active>1</is_active>
@@ -1200,7 +1200,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>386</weight>
       <is_active>1</is_active>
@@ -1218,7 +1218,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>396</weight>
       <is_active>1</is_active>
@@ -1236,7 +1236,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>413</weight>
       <is_active>1</is_active>
@@ -1254,7 +1254,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>424</weight>
       <is_active>1</is_active>
@@ -1272,7 +1272,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>435</weight>
       <is_active>1</is_active>
@@ -1290,7 +1290,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>446</weight>
       <is_active>1</is_active>
@@ -1308,7 +1308,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>465</weight>
       <is_active>1</is_active>
@@ -1326,7 +1326,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>477</weight>
       <is_active>1</is_active>
@@ -1344,7 +1344,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>489</weight>
       <is_active>1</is_active>
@@ -1362,7 +1362,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>505</weight>
       <is_active>1</is_active>
@@ -1380,7 +1380,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>507</weight>
       <is_active>1</is_active>
@@ -1398,7 +1398,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>519</weight>
       <is_active>1</is_active>
@@ -1416,7 +1416,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>551</weight>
       <is_active>1</is_active>
@@ -1434,7 +1434,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>564</weight>
       <is_active>1</is_active>
@@ -1452,7 +1452,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>577</weight>
       <is_active>1</is_active>
@@ -1470,7 +1470,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>590</weight>
       <is_active>1</is_active>
@@ -1488,7 +1488,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>603</weight>
       <is_active>1</is_active>
@@ -1506,7 +1506,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>616</weight>
       <is_active>1</is_active>
@@ -1524,7 +1524,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>629</weight>
       <is_active>1</is_active>
@@ -1542,7 +1542,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>642</weight>
       <is_active>1</is_active>
@@ -1580,7 +1580,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>531</weight>
       <is_active>1</is_active>
@@ -1598,7 +1598,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>643</weight>
       <is_active>1</is_active>
@@ -1616,7 +1616,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>644</weight>
       <is_active>1</is_active>
@@ -1634,7 +1634,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>645</weight>
       <is_active>1</is_active>
@@ -1652,7 +1652,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>646</weight>
       <is_active>1</is_active>
@@ -1670,7 +1670,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>647</weight>
       <is_active>1</is_active>
@@ -1688,7 +1688,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>648</weight>
       <is_active>1</is_active>
@@ -1706,7 +1706,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>649</weight>
       <is_active>1</is_active>
@@ -1724,7 +1724,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>650</weight>
       <is_active>1</is_active>
@@ -1742,7 +1742,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>651</weight>
       <is_active>1</is_active>
@@ -1760,7 +1760,7 @@
       <data_type>Float</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>652</weight>
       <is_active>1</is_active>
@@ -1778,7 +1778,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>653</weight>
       <is_active>1</is_active>
@@ -1796,7 +1796,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>654</weight>
       <is_active>1</is_active>
@@ -1814,7 +1814,7 @@
       <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
-      <is_searchable>0</is_searchable>
+      <is_searchable>1</is_searchable>
       <is_search_range>0</is_search_range>
       <weight>655</weight>
       <is_active>1</is_active>
