@@ -160,27 +160,27 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
   public $yr_2nd_alt;
   /**
    *
-   * @var
+   * @var string
    */
   public $bldg_class;
   /**
    *
-   * @var
+   * @var string
    */
   public $zoning_gen;
   /**
    *
-   * @var
+   * @var string
    */
   public $zoning;
   /**
    *
-   * @var
+   * @var string
    */
   public $open_violations;
   /**
    *
-   * @var
+   * @var string
    */
   public $open_a_violations;
   /**
@@ -190,37 +190,37 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
   public $open_b_violations;
   /**
    *
-   * @var
+   * @var string
    */
   public $open_c_violations;
   /**
    *
-   * @var
+   * @var string
    */
   public $prior_year_violations;
   /**
    *
-   * @var
+   * @var string
    */
   public $prior_year_a_violations;
   /**
    *
-   * @var
+   * @var string
    */
   public $prior_year_b_violations;
   /**
    *
-   * @var
+   * @var string
    */
   public $prior_year_c_violations;
   /**
    *
-   * @var
+   * @var string
    */
   public $seven_a;
   /**
    *
-   * @var
+   * @var string
    */
   public $aep;
   /**
