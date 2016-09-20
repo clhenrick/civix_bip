@@ -15,7 +15,7 @@
       <table_name>civicrm_value_bip_data_19</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2016-01-08 21:07:09</created_date>
+      <created_date></created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
     <CustomGroup>
@@ -31,7 +31,7 @@
       <table_name>civicrm_value_bip_data_violations_19</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2016-01-08 21:07:09</created_date>
+      <created_date></created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
     <CustomGroup>
@@ -47,7 +47,7 @@
       <table_name>civicrm_value_bip_data_scores_20</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2016-01-08 21:07:09</created_date>
+      <created_date></created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
     <CustomGroup>
@@ -63,7 +63,7 @@
       <table_name>civicrm_value_bip_data_management_21</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2016-01-08 21:07:09</created_date>
+      <created_date></created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
   </CustomGroups>
