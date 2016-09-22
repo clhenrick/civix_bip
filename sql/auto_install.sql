@@ -58,7 +58,7 @@ CREATE TABLE IF NOT EXISTS `civicrm_bipdata` (
   `score_2009_2` double DEFAULT NULL,
   `score_2009_1` double DEFAULT NULL,
   `score_2008_2` double DEFAULT NULL,
-  `occurance` int(11) DEFAULT NULL,
+  `occurance` varchar(255) DEFAULT NULL,
   `average` double DEFAULT NULL,
   `cdf_avg` double DEFAULT NULL,
   `corp_name` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
