@@ -1161,7 +1161,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'doc_amount' => array(
           'name' => 'doc_amount',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('doc_amount') ,
         ) ,
         'corp_zip' => array(

@@ -97,7 +97,7 @@ CREATE TABLE IF NOT EXISTS `civicrm_bipdata` (
   `indiv_street_num` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `head_off_zip` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
   `indiv_zip` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `doc_amount` double DEFAULT NULL,
+  `doc_amount` varchar(25) DEFAULT NULL,
   `corp_zip` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
   `mngmt_zip` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
   `zip_code` varchar(10) COLLATE utf8_unicode_ci DEFAULT NULL,
