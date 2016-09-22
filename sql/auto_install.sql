@@ -111,7 +111,7 @@ CREATE TABLE IF NOT EXISTS `civicrm_bipdata` (
   KEY `INDEX_yr_2nd_alt` (`yr_2nd_alt`),
   KEY `INDEX_bldg_class` (`bldg_class`),
   KEY `INDEX_umbrella` (`umbrella`),
-  KEY `INDEX_address` (`address`),
+  KEY `INDEX_bip_address` (`bip_address`),
   KEY `INDEX_recorded_filed` (`recorded_filed`),
   KEY `INDEX_current_bip_score` (`current_bip_score`),
   KEY `INDEX_corp_city` (`corp_city`),
