@@ -32,7 +32,6 @@ function bipdata_get_bip_custom_groups() {
 
 function bipdata_get_bip_custom_fields() {
   $bipCustomGroups = bipdata_get_bip_custom_groups();
-  CRM_Core_Error::debug_var('bipCustomGroups', $bipCustomGroups);
   $result = civicrm_api3('CustomField', 'get', array(
     'return' => array("id", "name", "data_type"),
     'custom_group_id' => array('IN' => array("Bip_Data", "Bip_Data_Violations", "Bip_Data_Scores", "Bip_Data_Management")),
@@ -40,14 +39,25 @@ function bipdata_get_bip_custom_fields() {
   ));
   return $result['values'];
 }
-function bipdata_civicrm_pre($op, $objectName, $id, &$params) {
+
+function bipdata_get_bbl($id) {
+  $bblFieldId = bipdata_custom_field_get_id('BBL');
+  $result = civicrm_api3('Address', 'get', array(
+    'sequential' => 1,
+    'return' => array("custom_$bblFieldId"),
+    'id' => $id,
+  ));
+  return $result['values'][0]["custom_$bblFieldId"];
+}
+
+function bipdata_civicrm_post($op, $objectName, $objectId, &$objectRef) {
   // When saving an address, check for a BBL.  If a BBL is present,
   // do a lookup with that BBL against the BipData entity.  Fill in the
   // address custom fields based on the lookup.
   if ($objectName == 'Address' && ($op == 'create' || $op == 'edit')) {
     // Check if a BBL exists on this address.
-    $bblFieldId = bipdata_custom_field_get_id('BBL');
-    $bbl = CRM_Utils_Array::value("custom_$bblFieldId", $params);
+    $bbl = bipdata_get_bbl($objectId);
+
     if (!$bbl) {
       return;
     }
@@ -71,43 +81,33 @@ function bipdata_civicrm_pre($op, $objectName, $id, &$params) {
     // But not "id", that's not copied to a custom field.
     unset($bipData['id']);
 
+    // Set the entity_id.
+    $params['entity_id'] = $objectId;
     // Loop through the lookup data.
     foreach ($bipData as $k => $v) {
       // Find the corresponding custom field.
       foreach ($bipCustomFields as $id => $bipFieldMetadata) {
         if ($bipFieldMetadata['name'] == $k) {
           $fieldId = $id;
+          $dataType = $bipFieldMetadata['data_type'];
           break;
         }
+      }
+      // Special case: Reformat dates.
+      if ($dataType == 'Date') {
+        $date = new DateTime($v);
+        $v = $date->format('YmdHis');
       }
       // Put the lookup data into the custom field.
       $params["custom_$fieldId"] = $v;
     }
-    CRM_Core_Error::debug_var('params', $params);
+    //FIXME
+    unset($params['custom_9']); // address/bip_address.  Need to consolidate the names.
+    unset($params['custom_52']); // doc_amount.  Needs to be a string, not float in custom fields.
+    $result = civicrm_api3('CustomValue', 'create', $params);
   }
 }
 
-/*
-function bipdata_civicrm_pre($op, $objectName, $id, &$params) {
-  // This hook fires all the time, only run this code if we're creating/editing an address
-  if ($objectName == 'Address' && $op == 'edit') {
-
-      if (!empty($response['values'])) {
-        foreach ($response['values'] as $key => $result) {
-          $set_params = array('entity_id' => $id);
-
-          $document_type = custom_field_get_id('document_type');
-          $set_params['custom_' . $document_type] = $result['document_type'];
-
-          $recorded_filed = custom_field_get_id('recorded_filed');
-          $recorded_filed_date = new DateTime($result['recorded_filed']);
-          $stripped_recorded_filed = $recorded_filed_date->format('YmdHis');
-          $set_params['custom_' . $recorded_filed] = $stripped_recorded_filed;
-
-          $absolute = custom_field_get_id('absolute');
-          $set_params['custom_' . $absolute] = $result['absolute'];
-
-*/
 /**
  * Implements hook_civicrm_entityTypes.
  *
