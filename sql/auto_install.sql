@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS `civicrm_bipdata` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Default MySQL primary key',
   `bip_bbl` varchar(255) DEFAULT NULL,
-  `address` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `bip_address` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `res_unit` int(11) DEFAULT NULL,
   `tot_unit` int(11) DEFAULT NULL,
   `num_floors` int(11) DEFAULT NULL,

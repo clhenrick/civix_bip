@@ -43,7 +43,7 @@
     <add>4.7</add>
   </index>
   <field>
-    <name>address</name>
+    <name>bip_address</name>
     <title>Address</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>

@@ -97,7 +97,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @var string
    */
-  public $address;
+  public $bip_address;
   /**
    *
    * @var int
@@ -645,11 +645,11 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
           'export' => true,
         ) ,
         'address' => array(
-          'name' => 'address',
+          'name' => 'bip_address',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('address') ,
+          'title' => ts('bip address') ,
           'import' => true,
-          'where' => 'civicrm_bipdata.address',
+          'where' => 'civicrm_bipdata.bip_address',
           'headerPattern' => '',
           'dataPattern' => '',
           'export' => true,
@@ -1195,7 +1195,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
       self::$_fieldKeys = array(
         'id' => 'id',
         'bip_bbl' => 'bip_bbl',
-        'address' => 'address',
+        'bip_address' => 'bip_address',
         'res_unit' => 'res_unit',
         'tot_unit' => 'tot_unit',
         'num_floors' => 'num_floors',
