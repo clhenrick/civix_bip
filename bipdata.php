@@ -34,7 +34,7 @@ function bipdata_get_bip_custom_fields() {
   $bipCustomGroups = bipdata_get_bip_custom_groups();
   $result = civicrm_api3('CustomField', 'get', array(
     'return' => array("id", "name", "data_type"),
-    'custom_group_id' => array('IN' => array("Bip_Data", "Bip_Data_Violations", "Bip_Data_Scores", "Bip_Data_Management")),
+    'custom_group_id' => $bipCustomGroups,
     'options' => array('limit' => 0),
   ));
   return $result['values'];
