@@ -966,7 +966,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'occurance' => array(
           'name' => 'occurance',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('occurance') ,
         ) ,
         'average' => array(

@@ -1099,9 +1099,9 @@
       <custom_group_name>Bip_Data_Scores</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>cccurance</name>
-      <label>cccurance</label>
-      <data_type>Int</data_type>
+      <name>occurance</name>
+      <label>occurance</label>
+      <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
       <is_searchable>1</is_searchable>
