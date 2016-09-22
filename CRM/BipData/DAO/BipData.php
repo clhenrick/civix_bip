@@ -636,7 +636,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'bip_bbl' => array(
           'name' => 'bip_bbl',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('BIP BBL') ,
           'import' => true,
           'where' => 'civicrm_bipdata.bip_bbl',
