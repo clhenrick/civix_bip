@@ -1805,7 +1805,7 @@
     <CustomField>
       <name>doc_amount</name>
       <label>doc_amount</label>
-      <data_type>Float</data_type>
+      <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
       <is_searchable>1</is_searchable>
