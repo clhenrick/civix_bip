@@ -731,7 +731,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'year_built' => array(
           'name' => 'year_built',
-          'type' => CRM_Utils_Type::T_DATE,
+          'type' => CRM_Utils_Type::T_INT,
           'title' => ts('year_built') ,
         ) ,
         'yr_1st_alt' => array(
