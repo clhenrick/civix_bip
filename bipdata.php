@@ -78,8 +78,9 @@ function bipdata_civicrm_post($op, $objectName, $objectId, &$objectRef) {
     $bipCustomFields = bipdata_get_bip_custom_fields();
 
     // Let's match up lookup data to custom fields.
-    // But not "id", that's not copied to a custom field.
+    // But not "id" or "bip_bbl", they're not copied to a custom field.
     unset($bipData['id']);
+    unset($bipData['bip_bbl']);
 
     // Set the entity_id.
     $params['entity_id'] = $objectId;
@@ -101,9 +102,6 @@ function bipdata_civicrm_post($op, $objectName, $objectId, &$objectRef) {
       // Put the lookup data into the custom field.
       $params["custom_$fieldId"] = $v;
     }
-    //FIXME
-    unset($params['custom_9']); // address/bip_address.  Need to consolidate the names.
-    unset($params['custom_52']); // doc_amount.  Needs to be a string, not float in custom fields.
     $result = civicrm_api3('CustomValue', 'create', $params);
   }
 }
