@@ -24,21 +24,26 @@
   <field>
     <name>bip_bbl</name>
     <title>BIP BBL</title>
-    <data_type>Int</data_type>
-    <html_type>Int</html_type>
+    <data_type>String</data_type>
+    <html_type>Text</html_type>
     <is_required>1</is_required>
     <is_searchable>1</is_searchable>
     <weight>1</weight>
     <is_search_range>0</is_search_range>
     <is_active>1</is_active>
     <is_view>1</is_view>
-    <text_length>11</text_length>
+    <text_length>12</text_length>
     <note_columns>60</note_columns>
     <note_rows>4</note_rows>
     <in_selector>1</in_selector>
   </field>
+  <index>
+    <name>index_bip_bbl</name>
+    <fieldName>bip_bbl</fieldName>
+    <add>4.7</add>
+  </index>
   <field>
-    <name>address</name>
+    <name>bip_address</name>
     <title>Address</title>
     <data_type>String</data_type>
     <html_type>Text</html_type>
@@ -1588,7 +1593,7 @@
   <field>
     <name>doc_amount</name>
     <title>doc_amount</title>
-    <data_type>Float</data_type>
+    <data_type>String</data_type>
     <html_type>Text</html_type>
     <is_required>0</is_required>
     <is_searchable>1</is_searchable>

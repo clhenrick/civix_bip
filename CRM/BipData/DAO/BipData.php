@@ -97,7 +97,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
    *
    * @var string
    */
-  public $address;
+  public $bip_address;
   /**
    *
    * @var int
@@ -636,7 +636,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'bip_bbl' => array(
           'name' => 'bip_bbl',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('BIP BBL') ,
           'import' => true,
           'where' => 'civicrm_bipdata.bip_bbl',
@@ -645,11 +645,11 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
           'export' => true,
         ) ,
         'address' => array(
-          'name' => 'address',
+          'name' => 'bip_address',
           'type' => CRM_Utils_Type::T_STRING,
-          'title' => ts('address') ,
+          'title' => ts('bip address') ,
           'import' => true,
-          'where' => 'civicrm_bipdata.address',
+          'where' => 'civicrm_bipdata.bip_address',
           'headerPattern' => '',
           'dataPattern' => '',
           'export' => true,
@@ -731,7 +731,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'year_built' => array(
           'name' => 'year_built',
-          'type' => CRM_Utils_Type::T_DATE,
+          'type' => CRM_Utils_Type::T_INT,
           'title' => ts('year_built') ,
         ) ,
         'yr_1st_alt' => array(
@@ -966,7 +966,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'occurance' => array(
           'name' => 'occurance',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('occurance') ,
         ) ,
         'average' => array(
@@ -1161,7 +1161,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
         ) ,
         'doc_amount' => array(
           'name' => 'doc_amount',
-          'type' => CRM_Utils_Type::T_INT,
+          'type' => CRM_Utils_Type::T_STRING,
           'title' => ts('doc_amount') ,
         ) ,
         'corp_zip' => array(
@@ -1195,7 +1195,7 @@ class CRM_BipData_DAO_BipData extends CRM_Core_DAO
       self::$_fieldKeys = array(
         'id' => 'id',
         'bip_bbl' => 'bip_bbl',
-        'address' => 'address',
+        'bip_address' => 'bip_address',
         'res_unit' => 'res_unit',
         'tot_unit' => 'tot_unit',
         'num_floors' => 'num_floors',

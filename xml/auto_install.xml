@@ -7,7 +7,7 @@
       <title>Bip Data</title>
       <extends>Address</extends>
       <style>Inline</style>
-      <collapse_display>0</collapse_display>
+      <collapse_display>1</collapse_display>
       <help_pre></help_pre>
       <help_post></help_post>
       <weight>13</weight>
@@ -15,7 +15,7 @@
       <table_name>civicrm_value_bip_data_19</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2016-01-08 21:07:09</created_date>
+      <created_date></created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
     <CustomGroup>
@@ -23,7 +23,7 @@
       <title>Bip Data Violations</title>
       <extends>Address</extends>
       <style>Inline</style>
-      <collapse_display>0</collapse_display>
+      <collapse_display>1</collapse_display>
       <help_pre></help_pre>
       <help_post></help_post>
       <weight>14</weight>
@@ -31,7 +31,7 @@
       <table_name>civicrm_value_bip_data_violations_19</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2016-01-08 21:07:09</created_date>
+      <created_date></created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
     <CustomGroup>
@@ -39,7 +39,7 @@
       <title>Bip Data Scores</title>
       <extends>Address</extends>
       <style>Inline</style>
-      <collapse_display>0</collapse_display>
+      <collapse_display>1</collapse_display>
       <help_pre></help_pre>
       <help_post></help_post>
       <weight>15</weight>
@@ -47,7 +47,7 @@
       <table_name>civicrm_value_bip_data_scores_20</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2016-01-08 21:07:09</created_date>
+      <created_date></created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
     <CustomGroup>
@@ -55,7 +55,7 @@
       <title>Bip Data Management</title>
       <extends>Address</extends>
       <style>Inline</style>
-      <collapse_display>0</collapse_display>
+      <collapse_display>1</collapse_display>
       <help_pre></help_pre>
       <help_post></help_post>
       <weight>16</weight>
@@ -63,7 +63,7 @@
       <table_name>civicrm_value_bip_data_management_21</table_name>
       <is_multiple>0</is_multiple>
       <collapse_adv_display>0</collapse_adv_display>
-      <created_date>2016-01-08 21:07:09</created_date>
+      <created_date></created_date>
       <is_reserved>0</is_reserved>
     </CustomGroup>
   </CustomGroups>
@@ -1099,9 +1099,9 @@
       <custom_group_name>Bip_Data_Scores</custom_group_name>
     </CustomField>
     <CustomField>
-      <name>cccurance</name>
-      <label>cccurance</label>
-      <data_type>Int</data_type>
+      <name>occurance</name>
+      <label>occurance</label>
+      <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
       <is_searchable>1</is_searchable>
@@ -1805,7 +1805,7 @@
     <CustomField>
       <name>doc_amount</name>
       <label>doc_amount</label>
-      <data_type>Float</data_type>
+      <data_type>String</data_type>
       <html_type>Text</html_type>
       <is_required>0</is_required>
       <is_searchable>1</is_searchable>
