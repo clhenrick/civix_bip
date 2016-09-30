@@ -2,21 +2,6 @@
 
 require_once 'bipdata.civix.php';
 
-/**
- * See if a CiviCRM custom field exists
- * @param string $name
- *   custom field name to look for, corresponds to field civicrm_custom_field.name
- * @return custom id
- *   custom field id if it exists, else zero
- */
-function bipdata_custom_field_get_id($name) {
-  $result = civicrm_api3('CustomField', 'getvalue', array(
-    'return' => "id",
-    'name' => $name,
-  ));
-  return $result;
-}
-
 function bipdata_get_bip_custom_groups() {
   $result = civicrm_api3('CustomGroup', 'get', array(
     'sequential' => 1,
@@ -40,28 +25,20 @@ function bipdata_get_bip_custom_fields() {
   return $result['values'];
 }
 
-function bipdata_get_bbl($id) {
-  $bblFieldId = bipdata_custom_field_get_id('BBL');
-  $result = civicrm_api3('Address', 'get', array(
-    'sequential' => 1,
-    'return' => array("custom_$bblFieldId"),
-    'id' => $id,
-  ));
-  return $result['values'][0]["custom_$bblFieldId"];
-}
-
-function bipdata_civicrm_post($op, $objectName, $objectId, &$objectRef) {
-  // When saving an address, check for a BBL.  If a BBL is present,
-  // do a lookup with that BBL against the BipData entity.  Fill in the
-  // address custom fields based on the lookup.
-  if ($objectName == 'Address' && ($op == 'create' || $op == 'edit')) {
+function bipdata_civicrm_custom($op, $groupID, $entityID, &$params) {
+  if ($op != 'create' && $op != 'edit') {
+    return;
+  }
+  // Is this the BBL, and is it non-null?
+  // Ugh, 'bbl_153' shouldn't be hardcoded - but it's actually defined in
+  // the XML in this extension, so it's OK I guess.
+  if ($params[0]['column_name'] == 'bbl_153' && $params[0]['value']) {
     // Check if a BBL exists on this address.
-    $bbl = bipdata_get_bbl($objectId);
+    $bbl = $params[0]['value'];
 
     if (!$bbl) {
       return;
     }
-
     // BBL exists, let's do a lookup.
     $result = civicrm_api3('BipData', 'get', array(
       'sequential' => 1,
@@ -83,7 +60,7 @@ function bipdata_civicrm_post($op, $objectName, $objectId, &$objectRef) {
     unset($bipData['bip_bbl']);
 
     // Set the entity_id.
-    $params['entity_id'] = $objectId;
+    $params['entity_id'] = $entityID;
     // Loop through the lookup data.
     foreach ($bipData as $k => $v) {
       // Find the corresponding custom field.
