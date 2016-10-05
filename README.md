@@ -31,5 +31,17 @@ Note: Replacing the headers using Excel/LibreOffice is slow!  Instead do:
     cat headers.csv > final.csv
     tail -n +2 bip_data.csv >> final.csv
 
+Using PHPMyAdmin:
+
+Make sure you have followed the above steps with renaming the headers of the CSV file after converting from XLSX
+
+The following options should be enabled:
+
+- uncheck “Allow the interruption of an import in case the script detects it is close to the PHP timeout limit”
+- check “Replace Table Data”
+- copy and paste the column names to the `Column Names` text input. They should be copied from `./extras/headers.csv`
+
+![phpmyadmin bip data import](images/phpmyadmin-bipdata-import.png)
+
 ## Deleting BIP Data
 Deleting BIP data before reimporting is beyond the scope of this extension.  The current recommended approach is to truncate the `civicrm_bipdata` table using PHPMyAdmin or another MySQL client.
