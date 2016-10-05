@@ -28,8 +28,8 @@ You can then use this command:
 
 Note: Replacing the headers using Excel/LibreOffice is slow!  Instead do:
 
-   cat headers.csv > final.csv
-   tail -n +2 bip_data.csv >> final.csv
+    cat headers.csv > final.csv
+    tail -n +2 bip_data.csv >> final.csv
 
 ## Deleting BIP Data
 Deleting BIP data before reimporting is beyond the scope of this extension.  The current recommended approach is to truncate the `civicrm_bipdata` table using PHPMyAdmin or another MySQL client.
